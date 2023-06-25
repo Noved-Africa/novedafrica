@@ -1,0 +1,14 @@
+/* footer.css */
+.footer-container {
+  @apply bg-primary p-[100px] grid grid-cols-2 w-full;
+}
+
+.footer-link {
+  @apply mr-4 text-gray-600 hover:text-gray-800;
+}
+
+.footer-icon {
+  @apply w-5 h-5 fill-current text-gray-600;
+}
+
+/* Add more component-specific styles as needed */
