@@ -22,5 +22,8 @@ module.exports = {
 			'Albert_sans': ['Albert Sans', 'system-ui'],
 		}
 	},
+	// screens:{
+	// 	'sm': '568px',
+	// },
 	plugins: [],
 };
