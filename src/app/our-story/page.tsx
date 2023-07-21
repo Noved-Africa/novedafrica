@@ -46,18 +46,18 @@ const OurStory = () => {
 			</div>
 
 			<section className='xs:mx-5 mt-20 font-Albert_sans lg:grid grid-cols-2 gap-[5rem]'>
-				<div>
+				<div className='lg:ml-20 lg:mt-14'>
 					<h3 className='text-[#4A43CB] xs:text-md'>ABOUT US</h3>
 					<p className='font-semibold xs:text-3xl'>Career. Opportunity. Growth</p>
-					<p className='xs:mt-5'>Noved Africa was born out of a burning desire to solve a single problem, unemployability. We are a team of strong-willed individuals dedicated to equipping undergraduates and fresh graduates with valuable employable skills.</p>
+					<p className='xs:mt-5 lg:text-2xl'>Noved Africa was born out of a burning desire to solve a single problem, unemployability. We are a team of strong-willed individuals dedicated to equipping undergraduates and fresh graduates with valuable employable skills.</p>
 				</div>
-				<Image src={man} alt='Man Talking' className='xs:mt-10'/>
+				<Image src={man} alt='Man Talking' className='xs:mt-10 lg:h-[15rem]'/>
 			</section>
 
 			<section className='font-Albert_sans xs:mt-16 bg-[#F0EFFB] xs:py-12 xs:px-5'>
 				<div>
 					<p className='text-xl font-semibold text-center'>Why Noved Africa?</p>
-					<p className='text-center xs:pt-5 xs:pb-10'>We deliver full spectrum resources to upskill students for employability purposes. Our services will help achieve becoming a job creator and becoming employable after graduation among other things.</p>
+					<p className='text-center xs:pt-5 xs:pb-10 lg:w-1/2 lg:mx-auto'>We deliver full spectrum resources to upskill students for employability purposes. Our services will help achieve becoming a job creator and becoming employable after graduation among other things.</p>
 				</div>
 				<div className='lg:grid grid-cols-2'>
 					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2'>
@@ -113,7 +113,7 @@ const OurStory = () => {
 				</div>
 			</section>
 
-			<section className='mt-14 mb-24 xs:ml-5'>
+			<section className='mt-14 mb-24 xs:ml-5 lg:ml-[5rem]'>
 				<h4 className='text-[#4A43CB]'>OUR PARTNERS</h4>
 				<p className='text-xl font-semibold'>Organisations we have worked with to achieve our mission & vision.</p>
 				<Gallery images={images} />
