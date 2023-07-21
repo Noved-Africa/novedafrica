@@ -45,7 +45,7 @@ const OurStory = () => {
 				<p className='md:w-1/4 mx-auto md:mt-4'><Button text='About Noved Africa'/></p>
 			</div>
 
-			<section className='xs:mx-5 mt-20 font-Albert_sans'>
+			<section className='xs:mx-5 mt-20 font-Albert_sans lg:grid grid-cols-2 gap-[5rem]'>
 				<div>
 					<h3 className='text-[#4A43CB] xs:text-md'>ABOUT US</h3>
 					<p className='font-semibold xs:text-3xl'>Career. Opportunity. Growth</p>
@@ -59,8 +59,8 @@ const OurStory = () => {
 					<p className='text-xl font-semibold text-center'>Why Noved Africa?</p>
 					<p className='text-center xs:pt-5 xs:pb-10'>We deliver full spectrum resources to upskill students for employability purposes. Our services will help achieve becoming a job creator and becoming employable after graduation among other things.</p>
 				</div>
-				<div>
-					<div className='mx-8 md:grid grid-cols-2'>
+				<div className='lg:grid grid-cols-2'>
+					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2'>
 						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none xs:w-screen xs:mx-auto xs:h-[15rem]'/>
 						<p className='bg-[#E1E3EA] xs:pt-5 px-7 pb-36 md:pb-24'>
 							<h3 className='font-semibold text-xl pb-3'>Our Vision</h3>
@@ -68,7 +68,7 @@ const OurStory = () => {
 						</p>
 					</div>
 					<div className='mx-8 md:grid grid-cols-2'>
-						<Image src={plane} alt='plane' className='xs:w-screen md:order-last xs:mx-auto xs:h-[15rem]'/>
+						<Image src={plane} alt='plane' className='xs:w-screen md:order-last lg:order-none xs:mx-auto xs:h-[15rem]'/>
 						<p className='bg-[#E1E3EA] xs:pt-5 px-7 pb-10 rounded-b-lg'>
 							<h3 className='font-semibold text-xl pb-3'>Our Vision</h3>
 							<span>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
@@ -80,7 +80,7 @@ const OurStory = () => {
 			<section className='xs:mx-3 md:mx-10'>
 				<h4 className='text-[#4A43CB] md:mx-6 xs:text-xs xs:mt-14 xs:mb-1'>OUR CORE VALUES</h4>
 				<b className='text-xl md:mx-6'>Our values are a way of living and creating not just words.</b>
-				<div className='xs:mt-12 md:mx-6'>
+				<div className='xs:mt-12 md:mx-6 grid grid-cols-2 gap-[5rem] place-content-center'>
 					<div className='bg-[#FAF0F4] rounded-xl xs:px-6 py-7 mb-10'>
 						<Image src={one} alt='one' className='xs:w-10 ml-3 mb-4'/>
 						<b className='text-xl'>Community</b>
@@ -105,8 +105,8 @@ const OurStory = () => {
 			</section>
 
 			<section>
-				<Image src={white_background} alt='background' className='xs:h-[30rem]'/>
-				<div className='text-center absolute mx-4 xs:-mt-[22rem]'>
+				<Image src={white_background} alt='background' className='xs:h-[30rem] lg:w-screen'/>
+				<div className='text-center absolute mx-4 lg:mx-[20rem] xs:-mt-[22rem]'>
 					<p className='text-3xl font-semibold'>Join the Undergraduate<br/> Student Community</p>
 					<p className='w-10/12 mx-auto mt-4 mb-8'>The only procedure required to join our community is to fill the enrollment form. To do this, you can click on the ‘Join the community’ button. We cannot wait to have you!</p>
 					<p className='w-fit mx-auto'><Button text='Join the community ->'/></p>
