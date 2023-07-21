@@ -21,29 +21,29 @@ const Careers = () => {
       <body className='bg-white font-Albert_sans'>
         <Header/>
         <div className='relative -mt-36 -z-10'>
-          <Image src={wave} alt='wavy background' className='w-screen h-[48rem] md:-mt-[15rem] relative z-20'/>
-          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[31rem] md:-mt-[30rem] lg:w-[22rem] lg:ml-[58rem] z-[60] md:w-[12rem] md:ml-[28rem]'/>
-          <Image src={group_five} alt='group_five' className='w-full -mt-32 md:-mt-25'/>
+          <Image src={wave} alt='wavy background' className='w-screen h-[48rem] md:-mt-[15rem]  relative z-20'/>
+          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[31rem] md:-mt-[33rem] lg:w-[22rem] lg:ml-[58rem] z-[60] md:w-[14rem] md:ml-[32rem] xs:w-[12rem] xs:-mt-[19rem] xs:ml-[8rem]'/>
+          <Image src={group_five} alt='group_five' className='w-full -mt-32 md:-mt-25 md:h-[24rem] xs:h-[18rem]'/>
         </div>
         <section>
-          <h5 className='text-sm absolute font-normal text-[#292929] lg:-mt-[65rem] md:-mt-[45rem] sm:-mt-[35rem] z-30 mx-[6rem]'>Careers at Noved Africa</h5>
-          <div className='absolute lg:-mt-[57rem] md:-mt-[39rem] z-30 mx-[6rem]'>
-            <span className='lg:text-5xl md:text-2xl '>Welcome to a World of <br/>Possibilities. <Image src={star_1} alt='star' className='inline'/></span>
-            <h4 className='mt-4 md:text-sm'>Come be a part of us!</h4>
-            <p className='sm:-ml-6 sm:mt-5'><Button text="See Our Openings" /></p>
+          <h5 className='text-sm absolute font-normal text-[#292929] lg:-mt-[65rem] md:-mt-[43rem] z-30 xs:-mt-[48rem] xs:ml-7 xs:text-xs mx-[6rem]'>Careers at Noved Africa</h5>
+          <div className='absolute lg:-mt-[57rem] md:-mt-[39rem] xs:-mt-[42rem] z-30 mx-[6rem]'>
+            <p className='lg:text-5xl md:text-4xl xs:text-4xl xs:-mx-[4rem]'>Welcome to a World of <br/>Possibilities. <Image src={star_1} alt='star' className='inline'/></p>
+            <h4 className='mt-4 md:text-sm xs:text-xs xs:-ml-14 xs:text-[1.2rem]'>Come be a part of us!</h4>
+            <p className='md:mt-10 xs:-ml-[4rem] md:w-fit md:-ml-20 xs:mt-7 xs:w-[28rem]'><Button text="See Our Openings" /></p>
           </div>
-          <span className='bg-[#D2F7F9CC] absolute  -mt-20 ml-[7rem] py-2 px-4 rounded-3xl font-semibold md:font-normal md:ml-[4rem] md:-mt-14 text-[#3E38A9]'>The Noved Team</span>
+          <span className='bg-[#D2F7F9CC] absolute  -mt-20 ml-[7rem] py-2 px-4 rounded-3xl font-semibold md:font-semi-bold md:ml-[4rem] md:-mt-14 text-[#3E38A9] xs:ml-[3rem] xs:text-xs xs:-mt-[3rem]'>The Noved Team</span>
         </section>
 
-        <main className='mx-[6rem] md:mx-[4rem]'>
+        <main className='mx-[6rem] md:mx-[6rem]'>
           <section>
             <div>
-              <h2 className='text-3xl mt-20'>Why work with Noved Africa?</h2>
-              <p className='w-1/2 md:w-5/6 mt-5'>
+              <h2 className='text-3xl mt-20 xs:-mx-[4rem]'>Why work with Noved Africa?</h2>
+              <p className='w-1/2 md:w-5/6 xs:w-[26rem] xs:-ml-16 mt-5 '>
                 Our goal is to tackle unemployability by empowering and equipping undergraduates and fresh graduates with necessary skills, distinctive engagements and remarkable training needed to become and employable. Our team includes inventive, innovative and creative people working together to achieve this goal. Join us and help with our mission.
               </p>
             </div>
-            <div className='lg:grid grid-cols-2 gap-11'>
+            <div className='lg:grid grid-cols-2 gap-11 xs:-mx-[4rem]'>
               <div className='px-10 pt-8 pb-16 mt-20 md:mt-10 bg-[#EDFCFD]'>
                 <Image src={Frame129} alt='logo'/>
                 <h2 className='my-3 font-bold'>Collaboration</h2>
@@ -56,11 +56,11 @@ const Careers = () => {
               </div>
             </div>
             <div className='mt-[8rem]'>
-              <h2 className='text-3xl font-semibold pb-5 lg:ml-[36rem] md:ml-[12rem]'>Our openings</h2>
+              <h2 className='text-3xl font-semibold xs:ml-12 pb-5 lg:ml-[36rem] md:ml-[12rem]'>Our openings</h2>
               <p className='text-center lg:mx-[25rem]'>Find the perfect spot here at Noved Africa. We are working towards eradicating graduate unemployment in Africa, be a part of it.</p>
             </div>
           </section>
-          <section className='mt-[6rem] lg:mx-[10rem]'>
+          <section className='mt-[6rem] lg:mx-[10rem] xs:-mx-[4rem]'>
             <div className='lg:grid grid-cols-8 bg-[#FAFAFA] sm:pb-6 rounded-lg'>
               <div className='p-7 col-span-7'>
                 <h3 className='text-xl mb-3'>Customer Support Lead</h3>
@@ -90,7 +90,7 @@ const Careers = () => {
           <div className='text-center my-[5rem] lg:mx-[25rem]'>
             <p>Our team includes people who are willing to empower others to succeed. We take great pride in our work and put in maximum effort. Ready to join us?</p>
             {/* <p className='lg:ml-[15rem]'><Button text='See Our Openings'/></p> */}
-            <button className="bg-[#4A43CB] hover:bg-blue-600 text-white lg:-mx-4 sm:mt-5 font-medium lg:mt-9 py-2 px-4 rounded-3xl">
+            <button className="bg-[#4A43CB] hover:bg-blue-600 text-white lg:-mx-4 sm:mt-5 font-medium lg:mt-9 py-2 px-4 xs:mt-4 rounded-3xl">
       See Our Openings
     </button>
           </div>

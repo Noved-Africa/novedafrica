@@ -6,6 +6,12 @@ module.exports = {
 		"./src/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		screens: {
+			'xs': '100px',
+			'sm': '640px',
+			'md': '768px',
+			'lg': '1024px'
+		},
 		extend: {
 			colors: {
 				primary: "#0A4447",
@@ -22,8 +28,5 @@ module.exports = {
 			'Albert_sans': ['Albert Sans', 'system-ui'],
 		}
 	},
-	// screens:{
-	// 	'sm': '568px',
-	// },
-	plugins: [],
+	plugins: []
 };
