@@ -37,12 +37,12 @@ const OurStory = () => {
 			</Head>
 
 			<body className='font-Albert_sans'>
-					<Image src={picnic} alt='Career growth' className='-mt-36 -z-10 md:mt-0 w-screen xs:h-[30rem]'/>
-				<div className='absolute xs:-mt-[24rem] xs:mx-10 text-white'>
-				<p className='text-xs'>Our Story</p>
-				<h2 className='xs:mt-28 font-bold md:text-4xl text-2xl text-center'>Your career growth, our<br className='md:hidden'/> priority at <br className='md:visible'/> Noved<br className='md:hidden'/> Africa</h2>
-				<p className='text-center xs:mt-4 xs:text-sm md:w-3/4 md:ml-24'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
-				<p className='md:w-1/4 mx-auto md:mt-4'><Button text='About Noved Africa'/></p>
+					<Image src={picnic} alt='Career growth' className='-mt-36 -z-10 md:mt-0 w-screen xs:h-[30rem] lg:h-[40rem]'/>
+				<div className='absolute xs:-mt-[24rem] xs:mx-10 text-white lg:-mt-[34rem]'>
+					<p className='text-xs'>Our Story</p>
+					<h2 className='xs:mt-28 font-bold md:text-4xl text-2xl text-center lg:ml-[16rem]'>Your career growth, our<br className='md:hidden'/> priority at <br className='md:visible'/> Noved<br className='md:hidden'/> Africa</h2>
+					<p className='text-center xs:mt-4 xs:text-sm md:w-3/4 md:ml-24 lg:ml-[28rem] lg:w-1/2'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
+					<p className='md:w-1/4 mx-auto md:mt-4 lg:ml-[44rem]'><Button text='About Noved Africa'/></p>
 			</div>
 
 			<section className='xs:mx-5 mt-20 font-Albert_sans lg:grid grid-cols-2 gap-[5rem]'>
@@ -80,7 +80,7 @@ const OurStory = () => {
 			<section className='xs:mx-3 md:mx-10'>
 				<h4 className='text-[#4A43CB] md:mx-6 xs:text-xs xs:mt-14 xs:mb-1'>OUR CORE VALUES</h4>
 				<b className='text-xl md:mx-6'>Our values are a way of living and creating not just words.</b>
-				<div className='xs:mt-12 md:mx-6 grid grid-cols-2 gap-[5rem] place-content-center'>
+				<div className='xs:mt-12 md:mx-6 grid grid-cols-2 gap-[2rem] place-content-center'>
 					<div className='bg-[#FAF0F4] rounded-xl xs:px-6 py-7 mb-10'>
 						<Image src={one} alt='one' className='xs:w-10 ml-3 mb-4'/>
 						<b className='text-xl'>Community</b>
@@ -91,12 +91,12 @@ const OurStory = () => {
 						<b className='text-xl'>Diversity & Inclusion</b>
 						<p>We strive to create an environment that welcomes and embraces individuals from different backgrounds, cultures, and experiences. We believe diversity and inclusion leads to greater innovation and creativity.</p>
 					</div>
-					<div className='bg-[#F0FAF9] rounded-xl xs:px-6 py-7 mb-10'>
+					<div className='bg-[#F0FAF9] rounded-xl xs:px-6 py-7 mb-10 lg:-mt-[2rem]'>
 						<Image src={three} alt='three' className='xs:w-10 ml-3 mb-4'/>
 						<b className='text-xl'>Empowerment</b>
 						<p>Through our efficient empowerment system, we enable you to take control of your learning and professional development. We pride ourselves on providing the resources, tools, and guidance for social fitness and job readiness.</p>
 					</div>
-					<div className='bg-[#FCFDED] rounded-xl xs:px-6 py-7 mb-10'>
+					<div className='bg-[#FCFDED] rounded-xl xs:px-6 py-7 mb-10 lg:-mt-[2rem]'>
 						<Image src={four} alt='four' className='xs:w-10 ml-3 mb-4'/>
 						<b className='text-xl'>Fun</b>
 						<p>We are not just hard workers at Noved Africa, we’re also fun workers! We believe that work does not have to be boring, it’s okay to have a little fun. Afterall, all work and no play…</p>
