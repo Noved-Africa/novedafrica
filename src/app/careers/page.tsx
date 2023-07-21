@@ -22,20 +22,20 @@ const Careers = () => {
         <Header/>
         <div className='relative -mt-36 -z-10'>
           <Image src={wave} alt='wavy background' className='w-screen h-[48rem] md:-mt-[15rem]  relative z-20'/>
-          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[31rem] md:-mt-[33rem] lg:w-[22rem] lg:ml-[58rem] z-[60] md:w-[14rem] md:ml-[32rem] xs:w-[12rem] xs:-mt-[19rem] xs:ml-[8rem]'/>
-          <Image src={group_five} alt='group_five' className='w-full -mt-32 md:-mt-25 md:h-[24rem] xs:h-[18rem]'/>
+          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[34rem] md:-mt-[33rem] lg:w-[22rem] lg:ml-[58rem] z-[60] md:w-[14rem] md:ml-[32rem] xs:w-[12rem] xs:-mt-[19rem] xs:ml-[8rem]'/>
+          <Image src={group_five} alt='group_five' className='w-full -mt-32 md:-mt-25 md:h-[24rem] lg:h-[35rem] xs:h-[18rem]'/>
         </div>
         <section>
-          <h5 className='text-sm absolute font-normal text-[#292929] lg:-mt-[65rem] md:-mt-[43rem] z-30 xs:-mt-[48rem] xs:ml-7 xs:text-xs mx-[6rem]'>Careers at Noved Africa</h5>
-          <div className='absolute lg:-mt-[57rem] md:-mt-[39rem] xs:-mt-[42rem] z-30 mx-[6rem]'>
+          <h5 className='text-sm absolute font-normal text-[#292929] lg:-mt-[58rem] md:-mt-[43rem] z-30 xs:-mt-[48rem] xs:ml-7 xs:text-xs mx-[6rem] lg:ml-[6rem]'>Careers at Noved Africa</h5>
+          <div className='absolute lg:-mt-[54rem] md:-mt-[39rem] lg:ml-[10rem] xs:-mt-[42rem] z-30 mx-[6rem]'>
             <p className='lg:text-5xl md:text-4xl xs:text-4xl xs:-mx-[4rem]'>Welcome to a World of <br/>Possibilities. <Image src={star_1} alt='star' className='inline'/></p>
             <h4 className='mt-4 md:text-sm xs:text-xs xs:-ml-14 xs:text-[1.2rem]'>Come be a part of us!</h4>
-            <p className='md:mt-10 xs:-ml-[4rem] md:w-fit md:-ml-20 xs:mt-7 xs:w-[28rem]'><Button text="See Our Openings" /></p>
+            <p className='md:mt-10 xs:-ml-[4rem] md:w-fit md:-ml-20 xs:mt-7 lg:-ml-[3rem] xs:w-[28rem]'><Button text="See Our Openings" /></p>
           </div>
-          <span className='bg-[#D2F7F9CC] absolute  -mt-20 ml-[7rem] py-2 px-4 rounded-3xl font-semibold md:font-semi-bold md:ml-[4rem] md:-mt-14 text-[#3E38A9] xs:ml-[3rem] xs:text-xs xs:-mt-[3rem]'>The Noved Team</span>
+          <span className='bg-[#D2F7F9CC] absolute  -mt-20 ml-[7rem] lg:ml-[7rem] py-2 px-4 rounded-3xl font-semibold lg:text-lg md:font-semi-bold md:ml-[4rem] md:-mt-14 text-[#3E38A9] xs:ml-[3rem] xs:text-xs xs:-mt-[3rem]'>The Noved Team</span>
         </section>
 
-        <main className='mx-[6rem] md:mx-[6rem]'>
+        <main className='mx-[6rem] lg:mx-[9rem] md:mx-[6rem]'>
           <section>
             <div>
               <h2 className='text-3xl mt-20 xs:-mx-[4rem]'>Why work with Noved Africa?</h2>
