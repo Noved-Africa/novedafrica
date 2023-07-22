@@ -85,8 +85,8 @@ const Faq = () => {
 					Simplify our FAQ section with the search feature.
 				</p>
 
-				<form className=' flex lg:py-6 gap-3 w-full '>
-					<div className=' flex gap-2 bg-white px-4 max-w-[264px] grow  w-full   rounded-full '>
+				<form className=' flex  gap-3 grow '>
+					<div className=' flex gap-2 bg-white px-4  w-full rounded-full '>
 						<Image src={search} alt='Search' />
 						<input
 							type='text'
