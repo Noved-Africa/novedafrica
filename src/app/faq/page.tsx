@@ -67,20 +67,24 @@ const Faq = () => {
 					Discover answers to your most common inquiries. Reach out to us
 					directly by sending us a message!
 				</p>
-				<button className=' bg-[#4A43CB] text-white px-6 py-[13px] mt-10 mb-20 rounded-full font-bold '>
-					Send us a message{" "}
+				<button className=' bg-[#4A43CB] text-white px-6 py-[13px] mt-10 mb-20 md:w-fit w-full rounded-full font-bold '>
+					Send us a message
 				</button>
 			</div>
-			<div className=' text-black items-center  lg:px-[100px] md:px-[44px] pb-[100px] px-8 '>
-				<div className='  lg:px-20  bg-purple-800 rounded-xl flex items-center pr-[60px] '>
-					<p className=' lg:text-[40px] md:text-[24px]  text-white w-1/2 font-semibold md:leading-[35px] lg:leading-[48px] '>
+			<div className=' text-black items-center  lg:px-[100px] md:px-[44px] px-0 pb-10 md:pb-[80px] lg:pb-[100px] '>
+				<div className='  lg:px-20 md:px-8 pl-4 bg-purple-800 md:rounded-xl flex justify-between items-center md:pr-[60px] '>
+					<p className=' lg:text-[40px] md:text-[24px]  text-white w-1/2 font-semibold md:leading-[35px] lg:leading-[48px]'>
 						Uncover the answers you seek with ease!
 					</p>
-					<Image src={faq} alt='FAQ Question' className=' h-full grow-0 ' />
+					<Image
+						src={faq}
+						alt='FAQ Question'
+						className=' md:h-full h-[182px] grow-0 '
+					/>
 				</div>
 			</div>
 
-			<div className=' bg-[#FFFADE] flex lg:flex-row flex-col lg:items-center justify-between lg:px-[100px] md:px-8 md:py-8 py-6   md:gap-6 gap-4  px-4 mb-16 w-full '>
+			<div className='  bg-[#FFFADE] flex lg:flex-row flex-col lg:items-center justify-between lg:px-[100px] md:px-8 md:py-8 py-6   md:gap-6 gap-4  px-4 lg:mb-16 mb-6 w-full '>
 				<p className=' font-medium lg:text-[22px] text-lg md:text-[20px] text-[#292929] '>
 					Simplify our FAQ section with the search feature.
 				</p>
