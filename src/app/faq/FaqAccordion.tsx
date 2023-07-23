@@ -50,7 +50,7 @@ const FaqAccordion: React.FC<Props> = ({ faqs }) => {
 	return (
 		<div className='lg:px-[100px] px-4 md:px-8 flex lg:flex-row flex-col text-black lg:gap-12 md:gap-10'>
 			{/* Category list */}
-			<div className='lg:w-1/3 bg-[#fffade] md:p-8 py-6 rounded-xl'>
+			<div className='lg:w-1/3 bg-[#fffade] md:p-8 py-6 rounded-xl over '>
 				<h1 className='lg:block hidden mb-6 font-bold text-[22px] leading-9 text-black'>
 					Categories
 				</h1>
