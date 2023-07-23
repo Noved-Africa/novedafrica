@@ -57,8 +57,8 @@ const faqs = [
 ];
 const Faq = () => {
 	return (
-		<div className=' bg-white pt-32  '>
-			<p className=' text-black lg:pl-[100px] md:pl-8 pl-4 '>Contact / FAQs</p>
+		<div className=' bg-white lg:pt-[130px] pt-[90px]   '>
+			<p className=' text-black lg:pl-[100px] md:pl-8 pl-4 md:text-xs text-[10px] '>Contact / FAQs</p>
 			<div className=' lg:max-w-[800px] lg:px-0  md:px-[74px] px-4 mt-[100px]  mx-auto text-black text-center '>
 				<h1 className=' lg:text-[56px]  text-4xl leading-[67px] font-semibold md:mb-4 mb-3'>
 					Frequently Asked Questions
