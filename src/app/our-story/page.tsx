@@ -15,7 +15,6 @@ import four from '../../../public/images/four.png'
 import white_background from '../../../public/images/white_background.png'
 import Gallery from '@/common/components/elements/Gallery/Gallery';
 
-
 const images = [
   '../../../public/images/two.png',
   '../../../public/images/two.png',
@@ -37,6 +36,7 @@ const OurStory = () => {
 			</Head>
 
 			<body className='font-Albert_sans'>
+				<Header/>
 					<Image src={picnic} alt='Career growth' className='-mt-36 -z-10 md:mt-0 w-screen xs:h-[30rem] lg:h-[40rem]'/>
 				<div className='absolute xs:-mt-[24rem] xs:mx-10 text-white lg:-mt-[34rem]'>
 					<p className='text-xs'>Our Story</p>
