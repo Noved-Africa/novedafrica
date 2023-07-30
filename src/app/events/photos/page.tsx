@@ -25,15 +25,16 @@ const Events_Photos = () => {
       <Header/>
       <div className='mx-5 md:mt-40'>
         <span className='xs:hidden md:visible'>Media / Event Photos</span>
-        <p className='text-4xl md:ml-20 md:absolute md:-mt-[3rem]'>Relive the moments, captured forever.</p>
-        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem]'>Browse through our stunning event photos and immerse yourself in the memories that make our events truly unforgettable.</p>
-        <p className='w-3/12 mx-auto'><Button text='View Photos'/></p>
+        <p className='text-4xl lg:ml-[28rem] lg:relative md:ml-20 md:absolute md:-mt-[3rem]'>Relive the moments, captured forever.</p>
+        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem]'>Browse through our stunning event photos and immerse yourself <br/>in the memories that make our events truly unforgettable.</p>
+        <p className='w-3/12 mx-auto lg:ml-[42rem]'><Button text='View Photos'/></p>
       </div>
-      <Image src={picnic} alt='Our Photos Event Page' className='xs:-mt-[28rem] absolute -z-20 md:h-[40rem] w-screen xs:h-[30rem]'/>
+      <Image src={picnic} alt='Our Photos Event Page' className='xs:-mt-[28rem] absolute lg:h-[44rem] -z-20 md:h-[40rem] w-screen xs:h-[30rem]'/>
       
+      {/* For Mobile and Tablet Screens */}
 
-      <div className='xs:mt-[14rem] md:mt-40 bg-[#FFFADE] grid xs:grid-rows-2 xs:mt-6 xs:mb-12'>
-        <form className='xs:mt-5 xs:grid xs:grid-cols-2'>
+      <div className='lg:collapse xs:mt-[14rem] md:mt-40 lg:mt-[16rem] bg-[#FFFADE] grid xs:grid-rows-2 xs:mt-6 xs:mb-12'>
+        <form className='xs:mt-5 xs:grid xs:grid-cols-2 lg:grid-cols-none'>
           <p><input type='text' placeholder='What are you looking for?' className='rounded-[3rem] border bg-white p-2 outline-none xs:pl-12 xs:text-sm xs:w-[16rem] md:w-[25rem] h-11 xs:ml-7'/>
           <AiOutlineSearch className=' absolute xs:-mt-7 xs:ml-10' fill='grey' size={20}/></p>
           <p className='xs:w-8/12 xs:-mt-3 md:mt-0 xs:ml-10'><Button text = 'Search'/></p>
@@ -44,6 +45,24 @@ const Events_Photos = () => {
           <Button text = 'Community'/>
           <Button text = 'Hangout'/>
         </p>
+        
+      </div>
+
+      {/* For Desktop Screens */}
+
+      <div className='lg:visible xs:collapse absolute lg:-mt-[20rem] bg-[#FFFADE] lg:w-screen pl-20 grid grid-cols-2'>
+        <p className='grid grid-cols-4 h-12 -mt-1'>
+            <Button text = 'All Photos'/>
+            <Button text = 'Events'/>
+            <Button text = 'Community'/>
+            <Button text = 'Hangout'/>
+        </p>
+        <form className='grid grid-cols-2'>
+          <p><input type='text' placeholder='What are you looking for?' className='rounded-[3rem] border bg-white p-2 outline-none h-11 pl-14 w-[31rem] mt-8'/>
+          <AiOutlineSearch className='-mt-7 ml-4 ' fill='grey' size={20}/></p>
+          <p className='ml-[10rem]'><Button text = 'Search'/></p>
+        </form>
+        
         
       </div>
 
