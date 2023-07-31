@@ -23,11 +23,11 @@ const Events_Photos = () => {
     <body className='text-white font-Albert_sans '>
 
       <Header/>
+      <span className='xs:collapse md:visible lg:ml-24 lg:absolute text-sm lg:mt-8'>Media / Event Photos</span>
       <div className='mx-5 md:mt-40'>
-        <span className='xs:hidden md:visible'>Media / Event Photos</span>
-        <p className='text-4xl lg:ml-[28rem] lg:relative md:ml-20 md:absolute md:-mt-[3rem]'>Relive the moments, captured forever.</p>
-        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem]'>Browse through our stunning event photos and immerse yourself <br/>in the memories that make our events truly unforgettable.</p>
-        <p className='w-3/12 mx-auto lg:ml-[42rem]'><Button text='View Photos'/></p>
+        <p className='text-4xl text-center lg:ml-[28rem] md:ml-20 md:absolute md:-mt-[3rem] lg:mt-[1rem]'>Relive the moments, captured forever.</p>
+        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem] lg:absolute lg:mt-20 '>Browse through our stunning event photos and immerse yourself <br/>in the memories that make our events truly unforgettable.</p>
+        <p className='w-3/12 xs:w-11/12 mx-auto lg:ml-[44rem]'><Button text='View Photos'/></p>
       </div>
       <Image src={picnic} alt='Our Photos Event Page' className='xs:-mt-[28rem] absolute lg:h-[44rem] -z-20 md:h-[40rem] w-screen xs:h-[30rem]'/>
       

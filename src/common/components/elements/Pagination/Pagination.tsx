@@ -1,6 +1,6 @@
 export default function Pagination(){
   return(
-    <div className="flex justify-center my-10 bg-[#FAFFEB] w-screen py-4">
+    <div className="flex justify-center lg:relative lg:-mt-[40rem] my-10 bg-[#FAFFEB] w-screen py-4">
 					<nav aria-label="Page navigation example">
 						<ul className="list-style-none flex">
 							<li>
