@@ -15,7 +15,7 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: "#0A4447",
-				footerColor: "#93D3A2",
+				footerColor: "#B5F2F5",
 				secondary: "var(--secondary-color)",
 			},
 			backgroundImage: {

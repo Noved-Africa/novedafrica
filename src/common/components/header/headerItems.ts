@@ -27,11 +27,6 @@ export const menuItems = [
 
     ],
   },
-  // {
-  //   id: 2,
-  //   title: 'Home',
-  //   url: '/',
-  // },
   {
     id: 4,
     title: 'Our Story',
