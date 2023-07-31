@@ -7,6 +7,7 @@ import picnic from '../../../../public/images/picnic.png'
 import PhotoGallery from '@/common/components/elements/Grid/PhotoGallery';
 import Pagination from '@/common/components/elements/Pagination/Pagination';
 import { AiOutlineSearch } from "react-icons/ai";
+import {Footer} from '@/common/components/';
 
 
 // const video = ["https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600", 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/2505056/pexels-photo-2505056.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/3184632/pexels-photo-3184632.jpeg?auto=compress&cs=tinysrgb&w=600',  'https://images.pexels.com/photos/2608516/pexels-photo-2608516.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/3811082/pexels-photo-3811082.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.pexels.com/photos/3810788/pexels-photo-3810788.jpeg?auto=compress&cs=tinysrgb&w=600', 'https://images.unsplash.com/photo-1515187029135-18ee286d815b']
@@ -23,13 +24,13 @@ const Events_Photos = () => {
     <body className='text-white font-Albert_sans '>
 
       <Header/>
-      <span className='xs:collapse md:visible lg:ml-24 lg:absolute text-sm lg:mt-8'>Media / Event Photos</span>
+      <span className='xs:collapse md:visible lg:ml-24 lg:absolute lg:-mt-[8rem] text-sm'>Media / Event Photos</span>
       <div className='mx-5 md:mt-40'>
-        <p className='text-4xl text-center lg:ml-[28rem] md:ml-20 md:absolute md:-mt-[3rem] lg:mt-[1rem]'>Relive the moments, captured forever.</p>
-        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem] lg:absolute lg:mt-20 '>Browse through our stunning event photos and immerse yourself <br/>in the memories that make our events truly unforgettable.</p>
-        <p className='w-3/12 xs:w-11/12 mx-auto lg:ml-[44rem]'><Button text='View Photos'/></p>
+        <p className='text-4xl text-center lg:ml-[28rem] md:ml-20 md:absolute md:-mt-[3rem] lg:mt-[7rem]'>Relive the moments, captured forever.</p>
+        <p className='text-center xs:mt-10 md:mx-36 md:mt-[1rem] md:mb-[1rem] lg:absolute lg:mt-[12rem] lg:ml-[30rem] '>Browse through our stunning event photos and immerse yourself <br/>in the memories that make our events truly unforgettable.</p>
+        <p className='w-3/12 xs:w-11/12 mx-auto lg:ml-[44rem] lg:absolute lg:mt-[16rem] '><Button text='View Photos'/></p>
       </div>
-      <Image src={picnic} alt='Our Photos Event Page' className='xs:-mt-[28rem] absolute lg:h-[44rem] -z-20 md:h-[40rem] w-screen xs:h-[30rem]'/>
+      <Image src={picnic} alt='Our Photos Event Page' className='xs:-mt-[28rem] absolute lg:h-[44rem] -z-20 md:h-[40rem] w-screen xs:h-[30rem] lg:-mt-64'/>
       
       {/* For Mobile and Tablet Screens */}
 
@@ -50,7 +51,7 @@ const Events_Photos = () => {
 
       {/* For Desktop Screens */}
 
-      <div className='lg:visible xs:collapse absolute lg:-mt-[20rem] bg-[#FFFADE] lg:w-screen pl-20 grid grid-cols-2'>
+      <div className='lg:visible xs:collapse absolute lg:mt-[8rem] bg-[#FFFADE] lg:w-screen pl-20 grid grid-cols-2'>
         <p className='grid grid-cols-4 h-12 -mt-1'>
             <Button text = 'All Photos'/>
             <Button text = 'Events'/>
@@ -62,15 +63,13 @@ const Events_Photos = () => {
           <AiOutlineSearch className='-mt-7 ml-4 ' fill='grey' size={20}/></p>
           <p className='ml-[10rem]'><Button text = 'Search'/></p>
         </form>
-        
-        
       </div>
 
       {/* <PhotoGallery images={video}/> */}
       <PhotoGallery/>
 
       <Pagination/>
-
+        
     </body>
 
     </>
