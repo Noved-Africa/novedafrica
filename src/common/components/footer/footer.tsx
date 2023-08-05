@@ -3,6 +3,7 @@ import "./footer.css";
 import { SocialIcons, footerItems } from "./footerItems";
 import LogoImage from "../elements/logo/logoImage";
 import { useMediaQuery } from "react-responsive";
+import Image from "next/image";
 
 const DesktopFooter = () => {
 	return (
@@ -135,7 +136,7 @@ const Footer = () => {
 					<div className=' flex gap-4  '>
 						{SocialIcons.map((item, index) => (
 							<a href={item.link} key={index}>
-								<img src={item.icon} alt='' />
+								<Image src={item.icon} alt='Social Icon' />
 							</a>
 						))}
 					</div>
