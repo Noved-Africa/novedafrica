@@ -4,6 +4,8 @@ import { blogImage } from "@/assets";
 import { bgDesktop, bgMobile, bgTablet } from "@/assets";
 import Link from "next/link";
 import { SearchComponent } from "@/common/components";
+import BlogImage from "./blogImage";
+import BlogCard from "@/common/components/blogCard";
 
 const Blog = () => {
 	return (
@@ -29,24 +31,14 @@ const Blog = () => {
 					Read our blog
 				</button>
 			</div>
-			
+
 			<div className=" bg-white ">
 				<SearchComponent text="Blog Spotlight: Explore our handpicked gems of inspiration." />
 			</div>
 
 			<div className=' bg-white flex px-[100px] pb-[100px] pt-[40px] gap-12  '>
-				<div className=' relative lg:w-3/5'>
-					<Image
-						className=' rounded-2xl lg:max-w-2xl '
-						src={blogImage}
-						alt='Blog Image'
-					/>
-					<div className=' flex justify-between absolute bottom-0 rounded-b-md bg-white/20  py-6 px-4 left-0 right-0 '>
-						<p className=' px-3 leading-6 text-sm font-medium text-center rounded-full '>
-							Community
-						</p>
-						<p>12 Feb, 2045</p>
-					</div>
+				<div className=' lg:w-3/5'>
+					<BlogImage image={blogImage} category={"Community"} />
 				</div>
 				<div className=' w-2/5 space-y-12 '>
 					<div className=' border-l-2 border-[#4A43CB] pl-6 flex flex-col gap-2  '>
@@ -81,8 +73,13 @@ const Blog = () => {
 			<div>
 
 
-				<div>
-					
+				<div className=" grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 px-[100px] gap-10 py-6 bg-white  ">
+					<BlogCard />
+					<BlogCard />
+					<BlogCard />
+					<BlogCard />
+					<BlogCard />
+					<BlogCard />
 				</div>
 			</div>
 		</div>
