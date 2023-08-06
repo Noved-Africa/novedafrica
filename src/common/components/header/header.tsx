@@ -27,7 +27,7 @@ const Header = () => {
 			<a href={"/"}>
 				<LogoImage />
 			</a>
-			<div className=' hidden lg:block '>
+			<div className=' hidden md:block '>
 				<ul className=' flex space-x-6  '>
 					{menuItems.map((item) => (
 						<li
@@ -54,7 +54,7 @@ const Header = () => {
 				</ul>
 			</div>
 
-			<div className='sm:hidden flex'>
+			<div className='md:hidden flex'>
 				<button
 					className='text-black '
 					onClick={toggleMobileMenu}
