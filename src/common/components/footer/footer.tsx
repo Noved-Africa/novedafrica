@@ -11,10 +11,10 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6'>
 				<h3 className=' text-2xl font-semibold  '>Products</h3>
 				<ul className=' space-y-4'>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>U-Grad</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>U-Grad Academy</a>
 					</li>
 				</ul>
@@ -23,13 +23,13 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6 '>
 				<h3 className=' text-2xl font-semibold  '>Services</h3>
 				<ul className=' space-y-4'>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Community</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Events</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Event Consult</a>
 					</li>
 				</ul>
@@ -38,16 +38,16 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6 '>
 				<h3 className=' text-2xl font-semibold  '>Media</h3>
 				<ul className=' space-y-4'>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Event Photos</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Event Video</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>News</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Testimonials</a>
 					</li>
 				</ul>
@@ -56,31 +56,31 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6 '>
 				<h3 className=' text-2xl font-semibold  '>Company</h3>
 				<ul className=' space-y-4'>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Our Story</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Careers</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>News</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Testimonials</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>BUA Webinars</a>
 					</li>
 
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>BUA Masterclass</a>
 					</li>
 
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Contact Us</a>
 					</li>
 
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>FAQs</a>
 					</li>
 				</ul>
@@ -89,16 +89,16 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6 md:col-start-2 '>
 				<h3 className=' text-2xl font-semibold  '>Legal</h3>
 				<ul className=' space-y-4'>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Event Photos</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Event Video</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>News</a>
 					</li>
-					<li className=' font-medium text-[18px]'>
+					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Testimonials</a>
 					</li>
 				</ul>
@@ -108,11 +108,227 @@ const DesktopFooter = () => {
 };
 
 const TabletFooter = () => {
-	return <footer>This is the tablet footer.</footer>;
+	return (
+		<>
+
+			<div className=' gap-16 grid grid-cols-4'>
+				<div className=" space-y-14 ">
+					<div className='text-white space-y-6'>
+						<h3 className=' text-2xl font-semibold  '>Products</h3>
+						<ul className=' space-y-4'>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>U-Grad</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>U-Grad Academy</a>
+							</li>
+						</ul>
+					</div>
+
+					<div className='text-white space-y-6  '>
+						<h3 className=' text-2xl font-semibold  '>Legal</h3>
+						<ul className=' space-y-4'>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Event Photos</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Event Video</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>News</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Testimonials</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div className='text-white space-y-6 col-start-3 row-start-1 '>
+					<h3 className=' text-2xl font-semibold  '>Services</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Community</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Events</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Consult</a>
+						</li>
+					</ul>
+				</div>
+
+				<div className='text-white space-y-6 col-start-4 row-start-1 '>
+					<h3 className=' text-2xl font-semibold  '>Media</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Photos</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Video</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>News</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Testimonials</a>
+						</li>
+					</ul>
+				</div>
+
+				<div className='text-white space-y-6 col-start-1 row-start-1 '>
+					<h3 className=' text-2xl font-semibold   '>Company</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Our Story</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Careers</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>News</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Testimonials</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>BUA Webinars</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>BUA Masterclass</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Contact Us</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>FAQs</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div className=' mt-20 text-[14px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] font-normal    '>
+				2022 Build Up Africa Inc. All Rights Reserved.
+			</div>
+		</>
+	)
 };
 
 const MobileFooter = () => {
-	return <footer>This is the mobile footer.</footer>;
+	return (
+		<>
+			<div className=' gap-y-14 gap-4 grid grid-cols-2'>
+				<div className='text-white space-y-6  col-start-1 row-start-1 '>
+					<h3 className=' text-2xl font-semibold   '>Company</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Our Story</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Careers</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>News</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Testimonials</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>BUA Webinars</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>BUA Masterclass</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Contact Us</a>
+						</li>
+
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>FAQs</a>
+						</li>
+					</ul>
+				</div>
+
+				<div className=" space-y-12 ">
+					<div className='text-white space-y-6'>
+						<h3 className=' text-2xl font-semibold  '>Products</h3>
+						<ul className=' space-y-4'>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>U-Grad</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>U-Grad Academy</a>
+							</li>
+						</ul>
+					</div>
+
+					<div className='text-white space-y-6 '>
+						<h3 className=' text-2xl font-semibold  '>Services</h3>
+						<ul className=' space-y-4'>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Community</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Events</a>
+							</li>
+							<li className=' font-normal text-[18px]'>
+								<a href={"/"}>Event Consult</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div className='text-white space-y-6  '>
+					<h3 className=' text-2xl font-semibold  '>Media</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Photos</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Video</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>News</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Testimonials</a>
+						</li>
+					</ul>
+				</div>
+
+				<div className='text-white space-y-6  '>
+					<h3 className=' text-2xl font-semibold  '>Legal</h3>
+					<ul className=' space-y-4'>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Photos</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Event Video</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>News</a>
+						</li>
+						<li className=' font-normal text-[18px]'>
+							<a href={"/"}>Testimonials</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div className=' mt-12 text-[12px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] font-normal    '>
+				2022 Build Up Africa Inc. All Rights Reserved.
+			</div>
+		</>
+
+	)
 };
 
 const Footer = () => {
@@ -136,7 +352,7 @@ const Footer = () => {
 					<div className=' flex gap-4  '>
 						{SocialIcons.map((item, index) => (
 							<a href={item.link} key={index}>
-								<Image src={item.icon} alt='Social Icon' />
+								<Image src={item.icon} alt='Social Icon' width={40} height={40} />
 							</a>
 						))}
 					</div>
@@ -175,101 +391,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// <div className=' gap-y-16 grid lg:grid-cols-3 md:grid-cols-4 grid-cols-2 mb-16'>
-// 	<div className='text-white space-y-6 h-fit '>
-// 		<h3 className=' text-2xl font-semibold  '>Products</h3>
-// 		<ul className=' space-y-4'>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>U-Grad</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>U-Grad Academy</a>
-// 			</li>
-// 		</ul>
-// 	</div>
-
-// 	<div className='text-white space-y-6 col-start-2 '>
-// 		<h3 className=' text-2xl font-semibold  '>Services</h3>
-// 		<ul className=' space-y-4'>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Community</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Events</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Event Consult</a>
-// 			</li>
-// 		</ul>
-// 	</div>
-
-// 	<div className='text-white space-y-6 '>
-// 		<h3 className=' text-2xl font-semibold  '>Media</h3>
-// 		<ul className=' space-y-4'>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Event Photos</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Event Video</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>News</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Testimonials</a>
-// 			</li>
-// 		</ul>
-// 	</div>
-
-// 	<div className='text-white space-y-6 md:col-start-1 md:row-start-1 lg:col-start-1 lg:row-start-2 row-start-1 col-start-1 '>
-// 		<h3 className=' text-2xl font-semibold  '>Company</h3>
-// 		<ul className=' space-y-4'>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Our Story</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Careers</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>News</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Testimonials</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>BUA Webinars</a>
-// 			</li>
-
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>BUA Masterclass</a>
-// 			</li>
-
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Contact Us</a>
-// 			</li>
-
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>FAQs</a>
-// 			</li>
-// 		</ul>
-// 	</div>
-
-// 	<div className='text-white space-y-6 md:col-start-2 '>
-// 		<h3 className=' text-2xl font-semibold  '>Legal</h3>
-// 		<ul className=' space-y-4'>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Event Photos</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Event Video</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>News</a>
-// 			</li>
-// 			<li className=' font-medium text-[18px]'>
-// 				<a href={"/"}>Testimonials</a>
-// 			</li>
-// 		</ul>
-// 	</div>
-// </div>;
