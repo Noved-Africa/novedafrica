@@ -11,14 +11,14 @@ const Blog = () => {
 	return (
 		<div className=' lg:pt-32 pt-[90px] relative '>
 
-			<Image src={bgDesktop} alt="Background Image" className=" object-contain object-center hidden lg:block absolute top-0 -z-10" />
-			<Image src={bgTablet} alt="Background Image" className=" object-contain object-center hidden sm:block lg:hidden absolute top-0 -z-10" />
-			<Image src={bgMobile} alt="Background Image" className=" object-contain object-center block sm:hidden absolute top-0 -z-10" />
+			<Image src={bgDesktop} alt="Background Image" className=" h-screen object-contain object-center hidden lg:block absolute top-0 -z-10" />
+			<Image src={bgTablet} alt="Background Image" className=" h-screen object-contain object-center hidden sm:block lg:hidden absolute top-0 -z-10" />
+			<Image src={bgMobile} alt="Background Image" className=" h-screen object-contain object-center block sm:hidden absolute top-0 -z-10" />
 
 			<p className=' text-black lg:pl-[100px] md:pl-8 pl-4 md:text-[16px] text-sm '>
 				Media / Noved Blog
 			</p>
-			<div className=' h-full  lg:max-w-[839px] lg:px-0 md:px-[74px] px-9 lg:mt-[100px] mt-10  mx-auto text-black text-center '>
+			<div className=' h-screen flex flex-col items-center   lg:max-w-[839px] lg:px-0 md:px-[74px] px-9 lg:mt-[100px] mt-10  mx-auto text-black text-center '>
 				<h1 className=' lg:text-[56px] text-4xl lg:leading-[67px] text-[#292929] leading-10 font-semibold md:mb-4 mb-4'>
 					Unleash your curiosity, explore our insightful blog.
 				</h1>
