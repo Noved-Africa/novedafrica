@@ -23,7 +23,7 @@ const Header = () => {
 	};
 
 	return (
-		<nav className=' flex justify-between lg:px-[100px] sm:px-8 px-4  py-6 lg:py-[30px] absolute left-0 right-0 top-0 shadow-md '>
+		<nav className=' flex justify-between lg:px-[100px] z-10 sm:px-8 px-4  py-6 lg:py-[30px] absolute left-0 right-0 top-0 shadow-md '>
 			<a href={"/"}>
 				<LogoImage />
 			</a>
