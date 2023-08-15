@@ -66,7 +66,7 @@ import man from '../../../../../public/images/man.png'
 const PhotoGallery = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:mt-[28rem] mx-14 lg:mt-[20rem] lg:relative mb-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:mt-[28rem] mx-14 lg:relative lg:mt-[4rem] mb-10">
         <div>
           <Image src={man} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold mt-2">The Undergraduate Student Summit ‘22</p>

@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/common/components/elements/Gallery/Gallery.js", "src/common/components/elements/Grid/PhotoGallery.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/common/components/elements/Gallery/Gallery.js", "src/common/components/elements/Grid/PhotoGallery.tsx", "src/common/components/elements/VideoMagnifier/VideoMagnifier.js"],
   "exclude": ["node_modules"]
 }
