@@ -10,8 +10,8 @@ import community from "../../../public/images/community.png";
 import dash from "../../../public/images/dash.jpg";
 import testimonialsText from "../../../public/images/testimonialsText.png";
 import Rectangle87 from "../../../public/images/Rectangle87.png";
-import { HiArrowRight } from "react-icons/hi";
-import testifier from "../../../public/images/testifier.jpeg";
+// import { HiArrowRight } from "react-icons/hi";
+import TranslateTestimonies from '../../common/components/elements/Translation/page'
 
 const Testimonials = () => {
 
@@ -71,15 +71,15 @@ const Testimonials = () => {
             </div>
 					<div className='mr-32 lg:w-[50rem] space-y-4 lg:mt-0 md:mt-24 order-1'>
 						<div className=' flex items-center lg:ml-16 lg:mb-8 '>
-							<span className=' h-1 w-8 bg-black lg:ml-0 ml-[15rem] md:ml-[20rem]'></span>
+							<span className=' h-1 w-8 bg-black lg:ml-0 ml-[15rem] md:ml-[15rem]'></span>
               <Image src={testimonialsText} alt='' className='md:ml-4'/>
 						</div>
 
-						<h2 className=' faq_heading text-lg font-bold md:text-[2.2rem] md:ml-12 md:w-[44rem] text-center'>
+						<h2 className=' faq_heading text-lg font-bold md:text-[2rem] md:ml-1 md:w-[42rem] text-center'>
 							Our mission is to empower young African undergraduates and fresh
 							graduates
 						</h2>
-						<p className=' text-sm md:text-[16px] w-11/12 md:ml-12 md:w-[44rem] text-center'>
+						<p className=' text-sm md:text-[16px] w-11/12 md:ml-7 md:w-[37rem] text-center'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
 							posuere adipiscing coallis sit. Non, nunc adipiscing mi amet
 							tempor dolor sit amet, consectetur adipiscing elit. Quis posu
@@ -156,74 +156,11 @@ const Testimonials = () => {
 						</p>
 					</div>
 
-					<div className=' px-4 py-10 md:py-20 md:px-[100px]'>
-						<div className='lg:flex w-full flex-col space-y-10 md:flex-row md:space-y-8 md:space-x-1'>
-							<article className=' rounded-2xl bg-gradient-to-r from-[#D4EDDA] to-[#93D3A2] p-8 md:w-[753px]'>
-								<div className=' mb-8 flex space-x-6'>
-									<Image
-										src={testifier}
-										alt=''
-										className=' h-[60px] w-[60px] rounded-full object-cover object-center '
-									/>
-									<div>
-										<h1 className=' text-[20px] font-bold'>Evelyn Jones</h1>
-										<p className=' text-[#828282]'>12.04.2022</p>
-									</div>
-								</div>
-								<p>
-									Lorem Ipsum amet minim mollit non deserunt ullamco est sit
-									aliqua dolor do amet sint. Velit officia consequat duis enim
-									velit mollit. Exercitation veniam consequat sunt nostrud amet.
-									Lorem Ipsum amet minim mollit non. Lorem Ipsu amet minim
-									mollit non minim mollit non.
-								</p>
-							</article>
-
-							<article className=' md:w-[753px] rounded-2xl bg-gradient-to-r from-[#D4EDDA] to-[#93D3A2] p-8'>
-								<div className=' mb-8 flex space-x-6'>
-									<Image
-										src={testifier}
-										alt=''
-										className=' h-[60px] w-[60px] rounded-full object-cover object-center '
-									/>
-									<div>
-										<h1 className=' text-[20px] font-bold'>Evelyn Jones</h1>
-										<p className=' text-[#828282]'>12.04.2022</p>
-									</div>
-								</div>
-								<p>
-									Lorem Ipsum amet minim mollit non deserunt ullamco est sit
-									aliqua dolor do amet sint. Velit officia consequat duis enim
-									velit mollit. Exercitation veniam consequat sunt nostrud amet.
-									Lorem Ipsum amet minim mollit non. Lorem Ipsu amet minim
-									mollit non minim mollit non.
-								</p>
-							</article>
-
-							<article className=' md:w-[753px] rounded-2xl bg-gradient-to-r from-[#D4EDDA] to-[#93D3A2] p-8 '>
-								<div className=' mb-8 flex space-x-6'>
-									<Image
-										src={testifier}
-										alt=''
-										className=' h-[60px] w-[60px] rounded-full object-cover object-center '
-									/>
-									<div>
-										<h1 className=' text-[20px] font-bold'>Evelyn Jones</h1>
-										<p className=' text-[#828282]'>12.04.2022</p>
-									</div>
-								</div>
-								<p>
-									Lorem Ipsum amet minim mollit non deserunt ullamco est sit
-									aliqua dolor do amet sint. Velit officia consequat duis enim
-									velit mollit. Exercitation veniam consequat sunt nostrud amet.
-									Lorem Ipsum amet minim mollit non. Lorem Ipsu amet minim
-									mollit non minim mollit non.
-								</p>
-							</article>
-						</div>
-						<div></div>
-					</div>
+					{/* <div className=' px-4 py-10 md:py-20 md:px-[100px]'> */}
+						{/*  */}
+					{/* </div> */}
 				</section>
+				<TranslateTestimonies/>
 				{/* <section className=' px-4 py-[141px] md:px-[100px]'>
 					<div className='  text-center'>
 						<h1 className=' faq_heading mb-6 text-2xl font-bold md:text-[54px]'>
