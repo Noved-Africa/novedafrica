@@ -1,6 +1,6 @@
 /* footer.css */
 .footer-container {
-  @apply bg-primary lg:px-[100px] lg:py-[100px] md:px-8 px-4 py-16 grid lg:grid-cols-2 md:gap-y-14 w-full md:grid-cols-1;
+  @apply bg-primary lg:px-[100px] lg:py-[100px] md:px-8 px-4  py-16 grid lg:grid-cols-2 md:gap-y-14 w-full md:grid-cols-1;
 }
 
 .footer-link {
@@ -10,5 +10,3 @@
 .footer-icon {
   @apply w-5 h-5 fill-current text-gray-600;
 }
-
-/* Add more component-specific styles as needed */

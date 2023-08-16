@@ -70,7 +70,7 @@ const Testimonials = () => {
               />
             </div>
 					<div className='mr-32 lg:w-[50rem] space-y-4 lg:mt-0 md:mt-24 order-1'>
-						<div className=' flex items-center '>
+						<div className=' flex items-center lg:ml-16 lg:mb-8 '>
 							<span className=' h-1 w-8 bg-black lg:ml-0 ml-[15rem] md:ml-[20rem]'></span>
               <Image src={testimonialsText} alt='' className='md:ml-4'/>
 						</div>
