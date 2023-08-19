@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import dots from '../../../../../public/images/dots.jpg'
 
 const Dots = () => {
 
@@ -7,17 +8,17 @@ const Dots = () => {
 
     <>
       <div className="">
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
-        <Image src={} alt=''/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
+        <Image src={dots} alt='dots image'/>
       </div>
     </>
   )

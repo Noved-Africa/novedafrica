@@ -4,6 +4,21 @@ import Image from 'next/image'
 import { Header } from '@/common/components'
 import Button from '@/common/components/elements/Button/Button'
 import Dots from '@/common/components/elements/Dots/dot'
+import plane2 from '../../../public/images/plane2.png'
+import people from '../../../public/images/plane2.jpg'
+import heart from '../../../public/images/heart.jpg'
+import smileyFace from '../../../public/images/smileyFace.jpg'
+import envelope from '../../../public/images/envelope.jpg'
+import forwardArrow from '../../../public/images/forwardArrow.jpg'
+import target from '../../../public/images/target.jpg'
+import diamond from '../../../public/images/diamond.jpg'
+import flag from '../../../public/images/flag.jpg'
+import birthday from '../../../public/images/birthday.jpeg'
+import peoplepinic from '../../../public/images/peoplepinic.jpeg'
+import twoWomen from '../../../public/images/twoWomen.jpg'
+import peopleHolding from '../../../public/images/peopleHolding.jpg'
+import groupOfPeople from '../../../public/images/groupOfPeople.jpg'
+import white_background from '../../../public/images/white_background.png'
 
 
 const Community = () => {
@@ -23,14 +38,19 @@ const Community = () => {
           </p>
           <Button text='Join our community'/>
         </div>
-        <Image src={} alt='' className='
+        <Image src={heart} alt='' className='
         '/>
-        <Image src={} alt='' className='
+        <Image src={heart} alt='' className='
         '/>
-        <Image src={} alt='' className='
+        <Image src={people} alt='' className='
         '/>
-        <Image src={} alt='' className='
+        <Image src={smileyFace} alt='' className='
         '/>
+        <Image src={smileyFace} alt='' className='
+        '/>
+
+        {/* Arc 1 */}
+        {/* Insert Blob Here */}
 
         <section className="">
           <div className="">
@@ -40,10 +60,10 @@ const Community = () => {
               <p>The Undergraduate Student Community was created with great intentionality to help undergraduates and graduates alike find like minded people to help them grow in their journey. The Undergraduate Student Community focuses on inclusivity as well as career development. Joining our community will give access to several benefits like; community events, networking, and access to first hand updates about all things NOVED Africa related. You will also gain access to our newsletters where you get information about what is happening in the career world, as well as tips on how to get a job and grow in your career.</p>
             </div>
             <div className="">
-              <Image src={} alt=''/>
+              <Image src={twoWomen} alt=''/>
               <p className="">
-              <Image src={} alt=''/>
-              <Image src={} alt=''/>
+              <Image src={peopleHolding} alt=''/>
+              <Image src={groupOfPeople} alt=''/>
               </p>
             </div>
           </div>
@@ -56,7 +76,7 @@ const Community = () => {
             {/* Image and Dot on the same Row */}
             <div className="">
               {/* Image with background */}
-              <div className=""><Image src={} alt= '' className=''/></div>
+              <div className=""><Image src={flag} alt= '' className=''/></div>
 
               {/* Dots Image*/}
               <Dots/>
@@ -72,7 +92,7 @@ const Community = () => {
             {/* Image and Dot on the same Row */}
             <div className="">
               {/* Image with background */}
-              <div className=""><Image src={} alt= '' className=''/></div>
+              <div className=""><Image src={diamond} alt= '' className=''/></div>
               {/* Text */}
               <div className="">
                 <b className="">Community Value</b>
@@ -92,7 +112,7 @@ const Community = () => {
             {/* Image and Dot on the same Row */}
             <div className="">
               {/* Image with background */}
-              <div className=""><Image src={} alt= '' className=''/></div>
+              <div className=""><Image src={target} alt= '' className=''/></div>
 
               {/* Dots Image*/}
               <Dots/>
@@ -106,15 +126,15 @@ const Community = () => {
         </section>
 
         {/* Arc 2 */}
-        <Image src={} alt='' className=''/>
+        {/* Insert Blob Here */}
 
         <section className="">
           {/* Undergraduate Student community background */}
-          <Image src={} alt='' className=''/>
+          <Image src={white_background} alt='Undergraduate Student community background' className=''/>
           <div className="">
             <b className="">Join the Undergraduate Student Community</b>
             <small className="">The only procedure required to join our community is to fill the enrollment form. To do this, you can click on the ‘Join the community’ button. We cannot wait to have you!</small>
-            <a href="" className="">Join community <Image src={} alt=''/></a>
+            <a href="" className="">Join community <Image src={forwardArrow} alt=''/></a>
           </div>
         </section>
 
@@ -127,13 +147,13 @@ const Community = () => {
         <div className="">
           {/* Image 1 */}
           <div className="">
-            <Image src={} alt=''/>
+            <Image src={peoplepinic} alt=''/>
             <p className="">Community photos</p>
             <Button text='See photos'/>
           </div>
           {/* Image 2 */}
           <div className="">
-            <Image src={} alt=''/>
+            <Image src={birthday} alt=''/>
             <p className="">Community videos</p>
             <Button text='See videos'/>
           </div>
@@ -159,7 +179,7 @@ const Community = () => {
         <p className=""><Dots/></p>
 
         {/* Plane Image */}
-        <Image src={} alt=''/>
+        <Image src={plane2} alt='Hand Drawn Plane'/>
 
         <section className="">
           <div className="">
@@ -175,7 +195,7 @@ const Community = () => {
           </div>
           
           {/* Envelope */}
-          <Image src={} alt=''/>
+          <Image src={envelope} alt=''/>
         </section>
         
         {/* Dots Image*/}
