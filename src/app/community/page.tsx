@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '@/common/components'
 import Button from '@/common/components/elements/Button/Button'
+import Dots from '@/common/components/elements/Dots/dot'
 
 
 const Community = () => {
@@ -56,20 +57,9 @@ const Community = () => {
             <div className="">
               {/* Image with background */}
               <div className=""><Image src={} alt= '' className=''/></div>
-              {/* Dots */}
-              <div className="">
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-              </div>
+
+              {/* Dots Image*/}
+              <Dots/>
             </div>
             {/* Text */}
             <div className="">
@@ -92,20 +82,9 @@ const Community = () => {
                   <li>Growth.</li>
                 </ul>
               </div>
-              {/* Dots */}
-              <div className="">
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-              </div>
+
+              {/* Dots Image*/}
+              <Dots/>
             </div>
           </div>
           {/* Box 3 */}
@@ -114,20 +93,9 @@ const Community = () => {
             <div className="">
               {/* Image with background */}
               <div className=""><Image src={} alt= '' className=''/></div>
-              {/* Dots */}
-              <div className="">
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-                <Image src={} alt=''/>
-              </div>
+
+              {/* Dots Image*/}
+              <Dots/>
             </div>
             {/* Text */}
             <div className="">
@@ -170,6 +138,48 @@ const Community = () => {
             <Button text='See videos'/>
           </div>
         </div>
+
+          {/*  */}
+        <section className="">
+          {/* Column 1 */}
+          <div className="">
+            <b className="">Explore diverse conversation of our community.</b>
+            <p className="">Discover engaging articles, stories, and discussions created by our vibrant community as we come together to inspire, learn, and grow.</p>
+            <a href="" className="">Read our community blog</a>
+          </div>
+          {/* Column 2 */}
+          <div className="">
+            <b className="">Need more information about the community?</b>
+            <p className="">Our team is always on standby to answer any questions you might have. Contact us today! You can also go through our FAQs for more information.</p>
+            <a href="" className="">Read our community FAQ</a>
+          </div>
+        </section>
+
+        {/* Dots Image*/}
+        <p className=""><Dots/></p>
+
+        {/* Plane Image */}
+        <Image src={} alt=''/>
+
+        <section className="">
+          <div className="">
+            <b className="">Stay Informed with Our Newsletter!</b>
+            <p className="">Subscribe to our newsletter and never miss an update. Receive exclusive content, latest news, and exciting offers delivered right to your inbox. Join our community and be the first to know!</p>
+            <form action="" className="">
+              <div className="">
+                <input type="text" name="" className="" placeholder='Full name'/>
+                <input type="email" name="" className="" placeholder='Email address'/>
+                <input type="submit" value="Subscribe" className=''/>
+              </div>
+            </form>
+          </div>
+          
+          {/* Envelope */}
+          <Image src={} alt=''/>
+        </section>
+        
+        {/* Dots Image*/}
+        <p className=""><Dots/></p>
       </body>
     </>
   )
