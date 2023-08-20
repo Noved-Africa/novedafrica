@@ -127,14 +127,14 @@ const Community = () => {
         </section>
 
         {/* Arc 2 */}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='z-40 relative'><path fill="#D9D9D9" fill-opacity="1" d="M0,64L80,101.3C160,139,320,213,480,256C640,299,800,309,960,282.7C1120,256,1280,192,1360,160L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='z-40 relative lg:absolute lg:mt-40'><path fill="#D9D9D9" fill-opacity="1" d="M0,64L80,101.3C160,139,320,213,480,256C640,299,800,309,960,282.7C1120,256,1280,192,1360,160L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
 
-        <section className="">
+        <section className="lg:-mt-56">
           {/* Undergraduate Student community background */}
-          <Image src={white_background} alt='Undergraduate Student community background' className='w-screen -mt-44'/>
-          <div className="text-center absolute -mt-[22rem]">
-            <b className="text-[2.5rem] block">Join the Undergraduate Student<br/> Community</b>
-            <small className="pt-5  mx-40 text-[1rem] block text-lg">The only procedure required to join our community is to fill the enrollment form. To do this, you can click on the ‘Join the community’ button. We cannot wait to have you!</small>
+          <Image src={white_background} alt='Undergraduate Student community background' className='w-screen -mt-44 lg:mt-[24rem] '/>
+          <div className="text-center lg:absolute md:-mt-[22rem] lg:-mt-[32rem]">
+            <b className="text-[2.5rem] lg:text-[3.5rem] block">Join the Undergraduate Student<br/> Community</b>
+            <small className="pt-5  mx-40 text-[1rem] block text-lg lg:mx-[24rem]">The only procedure required to join our community is to fill the enrollment form. To do this, you can click on the ‘Join the community’ button. We cannot wait to have you!</small>
             <button className="bg-[#4A43CB] rounded-[4rem] text-white px-3 py-2 mt-5">Join community <Image src={forwardArrow} alt='' className='inline'/></button>
           </div>
         </section>
@@ -148,20 +148,20 @@ const Community = () => {
         <div className="grid md:grid-cols-2 gap-4 bg-white px-10 pb-32">
           {/* Image 1 */}
           <div className="text-center">
-            <Image src={peoplepicnic} alt=''/>
-            <p className="-mt-28 text-white font-bold">Community photos</p>
-            <div className="mx-auto w-[9rem]"><Button text='See Photos'/></div>
+            <Image src={peoplepicnic} alt='' className='rounded-[2rem]'/>
+            <p className="md:-mt-28 text-white font-bold lg:-mt-44 lg:text-xl">Community photos</p>
+            <div className="mx-auto lg:ml-[20rem] w-[9rem]"><Button text='See Photos'/></div>
           </div>
           {/* Image 2 */}
           <div className="text-center">
-            <Image src={birthday} alt=''/>
-            <p className="-mt-28 text-white font-bold">Community videos</p>
+            <Image src={birthday} alt='' className='rounded-[2rem]'/>
+            <p className="md:-mt-28 text-white font-bold lg:-mt-44 lg:text-xl">Community videos</p>
             <div className="mx-auto w-[9rem]"><Button text='See Videos'/></div>
           </div>
         </div>
 
           {/*  */}
-        <section className="text-white">
+        <section className="text-white lg:grid lg:grid-cols-2">
           {/* Column 1 */}
           <div className="bg-[#444185] pl-10 pb-20">
             <p className="text-[2rem] font-bold pt-10">Explore diverse conversation of our community.</p>
@@ -182,7 +182,7 @@ const Community = () => {
         {/* Plane Image */}
         <p className="pl-[35rem] bg-white"><Image src={plane2} alt='Hand Drawn Plane'/></p>
 
-        <section className="bg-white px-10 grid md:grid-cols-2">
+        <section className="bg-white px-10 grid md:grid-cols-2 lg:pt-10">
           <div className="">
             <p className="font-bold text-[2rem]">Stay Informed with Our Newsletter!</p>
             <p className="text-[1rem]">Subscribe to our newsletter and never miss an update. Receive exclusive content, latest news, and exciting offers delivered right to your inbox. Join our community and be the first to know!</p>
