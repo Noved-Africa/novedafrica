@@ -222,7 +222,7 @@ const TabletFooter = () => {
 
 			</div>
 
-			<div className=' mt-20 text-[14px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] font-normal    '>
+			<div className=' mt-20 text-[14px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] font-normal  text-white   '>
 				2022 Build Up Africa Inc. All Rights Reserved.
 			</div>
 		</>
@@ -333,7 +333,7 @@ const MobileFooter = () => {
 				</div>
 			</div>
 
-			<div className=' mt-12 text-[12px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] font-normal    '>
+			<div className=' mt-12 text-[12px] text-center pt-8 border-t-[0.1px] border-t-[#4c7375] text-white font-normal    '>
 				2022 Build Up Africa Inc. All Rights Reserved.
 			</div>
 		</>
@@ -354,7 +354,7 @@ const Footer = () => {
 					<div className=' flex items-center lg:mb-6 mb-6 space-x-4'>
 						<LogoImage />
 					</div>
-					<p className='lg:w-[328px] md:text-sm leading-5 text-xs mb-10'>
+					<p className='lg:w-[328px] md:text-sm leading-5 text-xs mb-10 text-white'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
 						posuere adipiscing convallis.
 					</p>
@@ -370,7 +370,7 @@ const Footer = () => {
 				<div className=' space-y-6'>
 					{/* phone number */}
 					<div className=' flex space-x-4'>
-						<p>Give us a call: </p>
+						<p className=" text-white">Give us a call: </p>
 						<div className=' space-y-1'>
 							<p className=' text-footerColor font-bold'>+234(0)1234567890</p>
 							<p className=' text-footerColor font-bold'>+234(0)1234567890</p>
@@ -379,13 +379,13 @@ const Footer = () => {
 
 					{/* email support  */}
 					<div className=' flex space-x-4'>
-						<p>Email support:</p>
+						<p className=" text-white ">Email support:</p>
 						<div className=' text-footerColor font-bold space-y-1'>
 							<p>cooperatehomes@support.mail</p>
 						</div>
 					</div>
 				</div>
-				<p className=' text-[18px] pt-10 border-t-[0.1px] border-t-[#ccc] font-normal  hidden absolute bottom-0 lg:flex  '>
+				<p className=' text-[18px] pt-10 border-t-[0.1px] border-t-[#ccc] font-normal  hidden absolute bottom-0  text-white lg:flex  '>
 					2022 Build Up Africa Inc. All Rights Reserved.
 				</p>
 			</div>

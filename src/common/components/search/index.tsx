@@ -15,8 +15,8 @@ const SearchComponent = ({ text }:text) => {
       </p>
 
       <form className=' flex lg:w-2/5 gap-3 '>
-        <div className=' flex gap-2 bg-white px-4  w-full rounded-full '>
-          <Image src={search} alt='Search' />
+        <div className=' flex gap-2 bg-white px-4 justify-center items-center w-full rounded-full '>
+          <Image src={search} height={200} width={200} className=' h-5 w-5 ' alt='Search' />
           <input
             type='text'
             placeholder='What are you searching for?'

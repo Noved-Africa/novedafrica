@@ -80,7 +80,9 @@ const Faq = () => {
 					<Image
 						src={faq}
 						alt='FAQ Question'
-						className=' md:h-full h-[182px] grow-0 '
+						height={1000}
+						width={1000}
+						className=' md:h-full h-[182px] w-48 grow-0 '
 					/>
 				</div>
 			</div>
