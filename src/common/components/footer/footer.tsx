@@ -1,9 +1,13 @@
+'use client'
 import React from "react";
 import "./footer.css";
 import { SocialIcons, footerItems } from "./footerItems";
 import LogoImage from "../elements/logo/logoImage";
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
+import Link from "next/link";
+import dynamic from "next/dynamic";
+
 
 const DesktopFooter = () => {
 	return (
@@ -56,18 +60,23 @@ const DesktopFooter = () => {
 			<div className='text-white space-y-6 '>
 				<h3 className=' text-2xl font-semibold  '>Company</h3>
 				<ul className=' space-y-4'>
+					
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Our Story</a>
 					</li>
+
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Careers</a>
 					</li>
+
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>News</a>
 					</li>
+
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>Testimonials</a>
 					</li>
+
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>BUA Webinars</a>
 					</li>
@@ -83,6 +92,7 @@ const DesktopFooter = () => {
 					<li className=' font-normal text-[18px]'>
 						<a href={"/"}>FAQs</a>
 					</li>
+					
 				</ul>
 			</div>
 
@@ -351,9 +361,9 @@ const Footer = () => {
 
 					<div className=' flex gap-4  '>
 						{SocialIcons.map((item, index) => (
-							<a href={item.link} key={index}>
-								<Image src={item.icon} alt='Social Icon' width={40} height={40} />
-							</a>
+							<Link href={item.link} key={index}>
+								<Image src={item.icon} alt='Social Icon' className=" " width={40} height={40} />
+							</Link>
 						))}
 					</div>
 				</div>
@@ -390,4 +400,5 @@ const Footer = () => {
 	);
 };
 
-export default Footer;
+// export default Footer;
+export default dynamic(() => Promise.resolve(Footer), { ssr: false })

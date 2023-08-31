@@ -43,7 +43,7 @@ export const menuItems = [
   {
     id: 6,
     title: 'Contact',
-    url: '/#',
+    url: '/contact',
     submenu: [
       { id: 1, title: 'Contact', url: '/#' },
     ],
