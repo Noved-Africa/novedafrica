@@ -6,7 +6,7 @@ import Career_progress from '../../../public/images/Career_progress.png'
 import group_five from '../../../public/images/group_five.png'
 import { Header } from '@/common/components'
 import Button from '@/common/components/elements/Button/Button'
-import Frame128 from '../../../public/images/Frame128.png'
+// import Frame128 from '../../../public/images/Frame 194.png'
 import Frame129 from '../../../public/images/Frame129.png'
 import star_1 from '../../../public/images/star_1.png'
 
@@ -50,7 +50,7 @@ const Careers = () => {
                 <p>You get to be a part of an inclusive and impactful community. We thrive on collaboration and believe that no one should be left behind.</p>
               </div>
               <div className='px-10 pt-8 pb-16 mt-20 md:mt-10 bg-[#F7FFE0]'>
-                <Image src={Frame128} alt='logo'/>
+                {/* <Image src={Frame128} alt='logo'/> */}
                 <h2 className='my-3 font-bold'>Innovation</h2>
                 <p>Noved Africa is an innovative organization. Our mission is built on the desire to empower undergraduate and fresh graduates to become employable graduates and job creators.</p>
               </div>
