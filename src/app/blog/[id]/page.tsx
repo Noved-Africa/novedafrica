@@ -13,7 +13,7 @@ const BlogDetails = () => {
 
 
       <div className=' max-w-[920px] my-20 mx-auto '>
-        <p className=' rounded-full bg-[#DBD9F5] text-[#3E38A9] w-fit px-3 text-sm font-medium mb-6 '>Stories</p>
+        <p className=' rounded-full bg-[#DBD9F5] text-[#3E38A9] w-fit px-10 py-3 text-sm font-medium mb-6 '>Stories</p>
         <h1 className=' mb-0 text-5xl leading-[56px] font-semibold mb-8 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
         <div className=' border-t border-b py-6 mb-12 flex justify-between '>
           <p>12 February, 2045</p>

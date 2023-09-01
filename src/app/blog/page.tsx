@@ -35,52 +35,81 @@ const Blog = () => {
 			<div className=" bg-white ">
 				<SearchComponent text="Blog Spotlight: Explore our handpicked gems of inspiration." />
 			</div>
-
-			<div className=' bg-white lg:flex-row flex-col  flex lg:px-[100px] px-4 pb-[100px] pt-[40px] gap-12  '>
-				<div className=' lg:w-3/5'>
-					<BlogImage image={blogImage} category={"Community"} />
-				</div>
-				<div className=' lg:w-2/5 space-y-12 '>
-					<div className=' border-l-2 border-[#4A43CB] pl-6 flex flex-col gap-2  '>
-						<h1 className=' text-[#292929] text-[24px] font-bold leading-9 '>
-							This is the blog spotlight heading 1 that would be at the top like
-							this.
-						</h1>
-						<p className=' mb-4 text-[#424242]'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
-							posuere adipiscing coallis sit. Non, nunc adipiscing mi amet
-							tempor dolor sit amet, consectetur adipiscing elit. Quis posu
-							adipiscing coallis sit. Lorem ipsum dolor sit amet, consectetur
-							adipiscing elit. Quis posu adipiscing coallis sit.
-						</p>
-						<Link href={"/"} className=' text-[#4A43CB] '>
-							Read this Article <span></span>{" "}
-						</Link>
+			<div className=" bg-white px-4 pb-[100px] lg:px-[100px] pt-[40px] ">
+				<p className=' rounded-full bg-[#DBD9F5] text-[#3E38A9] w-fit px-10 py-3 text-sm font-medium mb-6 '>Stories</p>
+				<div className=' lg:flex-row flex-col  flex   gap-12  '>
+					<div className=' lg:w-3/5'>
+						<BlogImage image={blogImage} category={"Community"} />
 					</div>
-					<div className=' flex flex-col gap-8 '>
-						<h1 className='text-[#292929]  pl-6 border-l-2 border-[#C3C0EE] text-[24px] font-bold leading-9 '>
-							This is the blog spotlight heading 2 that would be at the top like
-							this.
-						</h1>
-						<h1 className='text-[#292929]  pl-6 border-l-2 border-[#C3C0EE] text-[24px] font-bold leading-9 '>
-							This is the blog spotlight heading 3 that would be at the top like
-							this.
-						</h1>
+					<div className=' lg:w-2/5 space-y-12 '>
+						<div className=' border-l-2 border-[#4A43CB] pl-6 flex flex-col gap-2  '>
+							<h1 className=' text-[#292929] text-[24px] font-bold leading-9 '>
+								This is the blog spotlight heading 1 that would be at the top like
+								this.
+							</h1>
+							<p className=' mb-4 text-[#424242]'>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+								posuere adipiscing coallis sit. Non, nunc adipiscing mi amet
+								tempor dolor sit amet, consectetur adipiscing elit. Quis posu
+								adipiscing coallis sit. Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Quis posu adipiscing coallis sit.
+							</p>
+							<Link href={"/"} className=' text-[#4A43CB] '>
+								Read this Article <span></span>{" "}
+							</Link>
+						</div>
+						<div className=' flex flex-col gap-8 '>
+							<h1 className='text-[#292929]  pl-6 border-l-2 border-[#C3C0EE] text-[24px] font-bold leading-9 '>
+								This is the blog spotlight heading 2 that would be at the top like
+								this.
+							</h1>
+							<h1 className='text-[#292929]  pl-6 border-l-2 border-[#C3C0EE] text-[24px] font-bold leading-9 '>
+								This is the blog spotlight heading 3 that would be at the top like
+								this.
+							</h1>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div>
+			<div className=" ">
 
-
-				<div className=" grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:px-[100px] px-4 gap-10 py-6 bg-white  ">
-					<BlogCard />
-					<BlogCard />
-					<BlogCard />
-					<BlogCard />
-					<BlogCard />
-					<BlogCard />
+				<div
+					className='flex flex-row flex-nowrap gap-1 overflow-auto scrollbar-hide px-4 lg:px-[100px] py-6 bg-[#FFFADE] '>
+					{[
+						"General",
+						"Employability",
+						"Events and Collaborations",
+						"Community",
+					].map((category) => (
+						<div
+							key={category}
+							className={`cursor-pointer rounded-full flex-nowrap inline-flex shrink-0 bg-[#4A43CB] text-white font-medium text-[14px] px-6 py-3 leading-[19px] `}
+						>
+							{/* ${activeCategory === category ? "font-bold bg-purple-600" : ""} */}
+							{/* onClick={() => setActiveCategory(category)} */}
+							{category}
+						</div>
+					))}
 				</div>
+				<div>
+					<div className=" grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:px-[100px] px-4 gap-10 py-6 bg-white  ">
+
+						<BlogCard />
+						<BlogCard />
+						<BlogCard />
+						<BlogCard />
+						<BlogCard />
+						<BlogCard />
+
+
+					</div>
+
+					<div className=" flex justify-center">
+						PAGINATION
+					</div>
+				</div>
+
 			</div>
 		</div>
 	);
