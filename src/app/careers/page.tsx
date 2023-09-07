@@ -24,7 +24,7 @@ const Careers = () => {
         <Header/>
         <div className='relative -mt-36 -z-10'>
           <Image src={wave} alt='wavy background' className='w-screen h-[48rem] md:-mt-[15rem] lg:mt-[7rem]  relative z-20'/>
-          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[34rem] md:-mt-[29rem] lg:w-[22rem] lg:ml-[48rem] z-[60] md:w-[14rem] md:ml-[32rem] xs:w-[12rem] xs:-mt-[19rem] xs:ml-[8rem]'/>
+          <Image src={Career_progress} alt='Career_progress' className='absolute lg:-mt-[34rem] md:-mt-[26rem] lg:w-[22rem] lg:ml-[48rem] z-[60] md:w-[14rem] md:ml-[36rem] xs:w-[12rem] xs:-mt-[19rem] xs:ml-[8rem]'/>
           <Image src={group_five} alt='group_five' className='w-full -mt-32 md:-mt-25 md:h-[24rem] lg:h-[35rem] xs:h-[18rem]'/>
         </div>
         <section>
@@ -41,7 +41,7 @@ const Careers = () => {
           <section>
             <div>
               <h2 className='text-3xl mt-20 xs:-mx-[4rem]'>Why work with Noved Africa?</h2>
-              <p className='lg:w-[38rem] md:w-5/6 xs:w-[26rem] xs:-ml-16 mt-5 '>
+              <p className='lg:w-[38rem] md:w-[42rem] xs:w-[26rem] xs:-ml-16 mt-5 '>
                 Our goal is to tackle unemployability by empowering and equipping undergraduates and fresh graduates with necessary skills, distinctive engagements and remarkable training needed to become and employable. Our team includes inventive, innovative and creative people working together to achieve this goal. Join us and help with our mission.
               </p>
             </div>
@@ -52,7 +52,7 @@ const Careers = () => {
                 <p>You get to be a part of an inclusive and impactful community. We thrive on collaboration and believe that no one should be left behind.</p>
               </div>
               <div className='px-10 pt-8 pb-16 mt-20 md:mt-10 bg-[#F7FFE0]'>
-                {/* <Image src={Frame128} alt='logo'/> */}
+                <Image src={bulb} alt='logo'/>
                 <h2 className='my-3 font-bold'>Innovation</h2>
                 <p>Noved Africa is an innovative organization. Our mission is built on the desire to empower undergraduate and fresh graduates to become employable graduates and job creators.</p>
               </div>
@@ -64,7 +64,7 @@ const Careers = () => {
           </section>
           <section className='mt-[6rem] lg:mx-[1rem] xs:-mx-[4rem]'>
             <div className='lg:flex bg-[#FAFAFA] sm:pb-6 rounded-lg'>
-              <div className='p-7 lg:mr-24 flex-auto w-[34rem]'>
+              <div className='p-7 lg:mr-24 flex-auto lg:w-[34rem]'>
                 <h3 className='text-xl mb-3'>Customer Support Lead</h3>
                 <p>To take up this role, you would be expected to have strong leadership skills. As a customer support lead, you would oversee the day-to-day management of the customer service department. You would also be responsible for creating new policies or procedures that would help raise the quality of the service offered by the customer service department to the users.</p>
                 <p className='mt-[1rem] text-[#3E38A9]'>Fulltime | Remote</p>           
@@ -73,7 +73,7 @@ const Careers = () => {
             </div>
             
             <div className='lg:flex mt-7 bg-[#FAFAFA] sm:pb-6 rounded-lg'>
-              <div className='p-7 lg:mr-24 flex-auto w-[34rem]'>
+              <div className='p-7 lg:mr-24 flex-auto lg:w-[34rem]'>
                 <h3 className='text-xl mb-3'>Front End Developer</h3>
                 <p>As a Front End Developer, implementing visual elements within a web application that are visible to computer users is your responsibility. You are in charge of turning UI/UX wireframes into functional code. A Front End Developer should be able to mix the science of programming and the art of design.</p>
                 <p className='mt-[1rem] text-[#3E38A9]'>Contract | Remote</p>
@@ -81,7 +81,7 @@ const Careers = () => {
               <p className="flex-auto lg:w-[10rem]"><Button text='Apply now!'/></p>
             </div>
             <div className='lg:flex mt-7 bg-[#FAFAFA] sm:pb-6 rounded-lg'>
-              <div className='p-7 lg:mr-24 flex-auto w-[34rem]'>
+              <div className='p-7 lg:mr-24 flex-auto lg:w-[34rem]'>
                 <h3 className='text-xl mb-3'>Social Media Manager</h3>
                 <p>Social Media Managers establish an Organization's online presence and brand value. You would make use of videos, photographs, infographics and text posts on social media platforms. Their skill level impacts how well the company can represent its brand image online.</p>
                 <p className='mt-[1rem] text-[#3E38A9]'>Fulltime | Remote</p>
@@ -104,6 +104,3 @@ const Careers = () => {
 }
 
 export default Careers
-
-
-// make the top component absolut and the makt it be under the nav 
