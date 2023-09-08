@@ -34,11 +34,11 @@ const Community = () => {
 
       <body className='text-black bg-[#D9D9D9]'>
         <div className='bg-[#536D79] md:py-28 md:px-10 text-white'>
-          <small className="">Our Community</small>
-          <p className='md:pt-28 font-semibold text-3xl'>Come grow with us</p>
-          <p className='md:mt-6 w-[26rem]'>Join a community of creative individuals who have the same goals as you do. Realize your career goals faster with the Undergraduate Student Community.<br/><br/>Welcome to a world of possibilities!
+          <small className="lg:ml-[4rem]">Our Community</small>
+          <p className='md:pt-28 lg:pt-20 font-semibold lg:ml-[3.8rem] text-3xl'>Come grow with us</p>
+          <p className='md:mt-6 lg:ml-[3.8rem] w-[26rem]'>Join a community of creative individuals who have the same goals as you do. Realize your career goals faster with the Undergraduate Student Community.<br/><br/>Welcome to a world of possibilities!
           </p>
-          <p className="w-60 -mx-5 mt-10"><Button text='Join our community'/></p>
+          <p className="w-60 lg:ml-[3.8rem] mt-10"><Button text='Join our community'/></p>
         </div>
         <Image src={people} alt='community' className='w-[22rem] -mt-[19rem] z-10 absolute ml-[34rem]'/>
         <Image src={heart} alt='heart emoji' className='md:-mt-[26rem] w-3 md:ml-[26rem] absolute

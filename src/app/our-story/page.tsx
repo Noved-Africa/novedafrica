@@ -13,20 +13,7 @@ import two from '../../../public/images/two.png'
 import three from '../../../public/images/three.png'
 import four from '../../../public/images/four.png'
 import white_background from '../../../public/images/white_background.png'
-import Gallery from '@/common/components/elements/Gallery/Gallery';
-
-const images = [
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-  '../../../public/images/two.png',
-];
+import ImageGrid from '@/common/components/elements/Gallery/ImageGrid'
 
 const OurStory = () => {
 	return (
@@ -39,17 +26,17 @@ const OurStory = () => {
 				<Header/>
 					<Image src={picnic} alt='Career growth' className='-mt-36 -z-10 md:mt-0 w-screen xs:h-[30rem] lg:h-[40rem]'/>
 				<div className='absolute xs:-mt-[24rem] xs:mx-10 text-white lg:-mt-[34rem]'>
-					<p className='text-xs'>Our Story</p>
-					<h2 className='xs:mt-28 font-bold md:text-4xl text-2xl text-center lg:ml-[16rem]'>Your career growth, our<br className='md:hidden'/> priority at <br className='md:visible'/> Noved<br className='md:hidden'/> Africa</h2>
-					<p className='text-center xs:mt-4 xs:text-sm md:w-3/4 md:ml-24 lg:ml-[28rem] lg:w-1/2'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
-					<p className='md:w-1/4 mx-auto md:mt-4 lg:ml-[44rem]'><Button text='About Noved Africa'/></p>
+					<p className='text-xs lg:ml-[4rem] lg:mt-[2rem'>Our Story</p>
+					<h2 className='xs:mt-28 font-bold md:text-4xl text-2xl text-center -ml-6'>Your career growth, our<br className='md:hidden'/> priority at <br className='md:visible'/> Noved<br className='md:hidden'/> Africa</h2>
+					<p className='text-center xs:mt-4 xs:text-sm md:w-3/4 md:ml-[18rem] lg:w-1/2'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
+					<p className='md:w-1/4 mx-auto md:mt-4 lg:ml-[31rem]'><Button text='About Noved Africa'/></p>
 			</div>
 
 			<section className='xs:mx-5 mt-20 font-Albert_sans lg:grid grid-cols-2 gap-[5rem]'>
 				<div className='lg:ml-20 lg:mt-14'>
 					<h3 className='text-[#4A43CB] xs:text-md'>ABOUT US</h3>
 					<p className='font-semibold xs:text-3xl'>Career. Opportunity. Growth</p>
-					<p className='xs:mt-5 lg:text-2xl'>Noved Africa was born out of a burning desire to solve a single problem, unemployability. We are a team of strong-willed individuals dedicated to equipping undergraduates and fresh graduates with valuable employable skills.</p>
+					<p className='xs:mt-5 lg:text-md'>Noved Africa was born out of a burning desire to solve a single problem, unemployability. We are a team of strong-willed individuals dedicated to equipping undergraduates and fresh graduates with valuable employable skills.</p>
 				</div>
 				<Image src={man} alt='Man Talking' className='xs:mt-10 lg:h-[15rem]'/>
 			</section>
@@ -61,18 +48,18 @@ const OurStory = () => {
 				</div>
 				<div className='lg:grid grid-cols-2'>
 					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2'>
-						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none xs:w-screen xs:mx-auto xs:h-[15rem]'/>
-						<p className='bg-[#E1E3EA] xs:pt-5 px-7 pb-36 md:pb-24'>
-							<h3 className='font-semibold text-xl pb-3'>Our Vision</h3>
-							<span>We deliver full spectrum resources to upskill students for employability purposes.</span>
-						</p>
+						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none lg:h-[17rem] xs:w-screen xs:mx-auto xs:h-[15rem]'/>
+						<div className='bg-[#E1E3EA] xs:pt-5 px-7 lg:h-[17rem] md:pb-24'>
+							<p className='font-semibold text-xl pb-3'>Our Vision</p>
+							<span className='text-sm'>We deliver full spectrum resources to upskill students for employability purposes.</span>
+						</div>
 					</div>
 					<div className='mx-8 md:grid grid-cols-2'>
-						<Image src={plane} alt='plane' className='xs:w-screen md:order-last lg:order-none xs:mx-auto xs:h-[15rem]'/>
-						<p className='bg-[#E1E3EA] xs:pt-5 px-7 pb-10 rounded-b-lg'>
-							<h3 className='font-semibold text-xl pb-3'>Our Vision</h3>
-							<span>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
-						</p>
+						<Image src={plane} alt='plane' className='xs:w-screen md:order-last lg:order-none lg:h-[17rem] xs:mx-auto xs:h-[15rem]'/>
+						<div className='bg-[#E1E3EA] lg:h-[17rem] xs:pt-5 px-7  pb-10 rounded-b-lg'>
+							<p className='font-semibold text-xl pb-3'>Our Vision</p>
+							<span className='text-sm '>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
+						</div>
 				</div>
 				</div>
 			</section>
@@ -116,7 +103,7 @@ const OurStory = () => {
 			<section className='mt-14 mb-24 xs:ml-5 lg:ml-[5rem]'>
 				<h4 className='text-[#4A43CB]'>OUR PARTNERS</h4>
 				<p className='text-xl font-semibold'>Organisations we have worked with to achieve our mission & vision.</p>
-				<Gallery images={images} />
+				<ImageGrid/>
 			</section>
 			</body>
 		</>
