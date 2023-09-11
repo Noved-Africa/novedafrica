@@ -59,7 +59,7 @@ const Careers = () => {
             </div>
             <div className='mt-[8rem] xs:-ml-[6rem] xs:w-[18rem] md:w-screen'>
               <h2 className='lg:text-3xl text-3xl font-semibold xs:text-xl pb-5 lg:ml-[31rem] xs:ml-[6rem] md:ml-[13rem]'>Our openings</h2>
-              <p className='text-center xs:text-sm xs:ml-4 xs:w-[16rem] xs:text-[14px] md:mx-[4rem] lg:mx-[24rem] lg:ml-[20rem]'>Find the perfect spot here at Noved Africa. We are working towards eradicating graduate unemployment in Africa, be a part of it.</p>
+              <p className='text-center xs:text-sm xs:ml-4 xs:w-[16rem] xs:text-[14px] md:mx-[4rem] lg:mx-[4rem] lg:w-[32rem] lg:ml-[20rem]'>Find the perfect spot here at Noved Africa. We are working towards eradicating graduate unemployment in Africa, be a part of it.</p>
             </div>
           </section>
           <section className='mt-[6rem] lg:mx-[1rem] xs:-mx-[3rem]'>
