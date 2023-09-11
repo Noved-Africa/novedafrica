@@ -24,12 +24,12 @@ const OurStory = () => {
 
 			<body className='font-Albert_sans'>
 				<Header/>
-					<Image src={picnic} alt='Career growth' className='-mt-36 -z-10 md:mt-0 w-screen xs:h-[30rem] lg:h-[40rem]'/>
-				<div className='absolute xs:-mt-[24rem] xs:mx-10 text-white lg:-mt-[34rem]'>
-					<p className='text-xs lg:ml-[4rem] lg:mt-[2rem'>Our Story</p>
-					<h2 className='xs:mt-28 font-bold md:text-4xl text-2xl text-center -ml-6'>Your career growth, our<br className='md:hidden'/> priority at <br className='md:visible'/> Noved<br className='md:hidden'/> Africa</h2>
-					<p className='text-center xs:mt-4 xs:text-sm md:w-3/4 md:ml-[18rem] lg:w-1/2'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
-					<p className='md:w-1/4 mx-auto md:mt-4 lg:ml-[31rem]'><Button text='About Noved Africa'/></p>
+					<Image src={picnic} alt='Career growth' className='-z-10 lg:mt-0 w-screen xs:h-[30rem] md:h-[38rem] lg:h-[40rem]'/>
+				<div className='absolute xs:-mt-[24rem] md:-mt-[28rem] xs:mx-10 text-white lg:-mt-[34rem]'>
+					<p className='text-xs lg:ml-[4rem] lg:mt-[2rem]'>Our Story</p>
+					<h2 className='xs:mt-28 font-bold md:text-4xl lg:ml-[6rem] text-2xl text-center -ml-6'>Your career growth, our<br className='xs:hidden md:visible'/> priority at  Noved <span className='xs:inline-block md:inline'>Africa</span></h2>
+					<p className='text-center lg:ml-[18rem] xs:mt-4 xs:text-sm md:ml-[2rem] lg:w-1/2'>All resources needed to help you grow career-wise and fit for business and global jobs are here. Stay connected, you are at the right place!</p>
+					<p className='md:ml-5 mx-auto md:mt-4 lg:ml-[31rem]'><Button text='About Noved Africa'/></p>
 			</div>
 
 			<section className='xs:mx-5 mt-20 font-Albert_sans lg:grid grid-cols-2 gap-[5rem]'>
@@ -46,19 +46,19 @@ const OurStory = () => {
 					<p className='text-xl font-semibold text-center'>Why Noved Africa?</p>
 					<p className='text-center xs:pt-5 xs:pb-10 lg:w-1/2 lg:mx-auto'>We deliver full spectrum resources to upskill students for employability purposes. Our services will help achieve becoming a job creator and becoming employable after graduation among other things.</p>
 				</div>
-				<div className='lg:grid grid-cols-2'>
-					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2'>
+				<div className='md:grid !md:grid-cols-2 lg:flex'>
+					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2 flex-1 gap-0'>
 						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none lg:h-[17rem] xs:w-screen xs:mx-auto xs:h-[15rem]'/>
 						<div className='bg-[#E1E3EA] xs:pt-5 px-7 lg:h-[17rem] md:pb-24'>
 							<p className='font-semibold text-xl pb-3'>Our Vision</p>
-							<span className='text-sm'>We deliver full spectrum resources to upskill students for employability purposes.</span>
+							<span className='text-sm '>We deliver full spectrum resources to upskill students for employability purposes.</span>
 						</div>
 					</div>
-					<div className='mx-8 md:grid grid-cols-2'>
+					<div className='mx-8 md:grid grid-cols-2 flex-1'>
 						<Image src={plane} alt='plane' className='xs:w-screen md:order-last lg:order-none lg:h-[17rem] xs:mx-auto xs:h-[15rem]'/>
-						<div className='bg-[#E1E3EA] lg:h-[17rem] xs:pt-5 px-7  pb-10 rounded-b-lg'>
-							<p className='font-semibold text-xl pb-3'>Our Vision</p>
-							<span className='text-sm '>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
+						<div className='bg-[#E1E3EA] lg:h-[17rem] md:h-[15rem] xs:pt-5 px-7  pb-10 rounded-b-lg'>
+							<p className='font-semibold text-xl pb-3'>Our Mission</p>
+							<span className='text-sm  '>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
 						</div>
 				</div>
 				</div>
@@ -67,7 +67,7 @@ const OurStory = () => {
 			<section className='xs:mx-3 md:mx-10'>
 				<h4 className='text-[#4A43CB] md:mx-6 xs:text-xs xs:mt-14 xs:mb-1'>OUR CORE VALUES</h4>
 				<b className='text-xl md:mx-6'>Our values are a way of living and creating not just words.</b>
-				<div className='xs:mt-12 md:mx-6 grid grid-cols-2 gap-[2rem] place-content-center'>
+				<div className='xs:mt-12 md:mx-6 lg:grid lg:grid-cols-2 gap-[2rem] place-content-center'>
 					<div className='bg-[#FAF0F4] rounded-xl xs:px-6 py-7 mb-10'>
 						<Image src={one} alt='one' className='xs:w-10 ml-3 mb-4'/>
 						<b className='text-xl'>Community</b>
