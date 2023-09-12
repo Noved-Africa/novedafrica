@@ -26,10 +26,10 @@ const Testimonials = () => {
 					<div className='pt-20 text-center -mt-40  md:py-16 '>
             <Image src={Rectangle87} alt='' className='w-screen h-[38rem]'/>
 						<div className='absolute -mt-[22rem] md:ml-10 lg:ml-[28rem]'>
-              <h2 className=' faq_heading mb-4 text-[30px] font-bold  md:text-[54px]'>
+              <h2 className=' faq_heading mb-4 text-[30px] font-bold  md:text-[54px] lg:-ml-[10rem]'>
                 BUA Testimonials
               </h2>
-              <p className=' mx-auto max-w-2xl text-center text-sm md:text-[16px]'>
+              <p className=' mx-auto max-w-2xl text-center text-sm lg:-ml-[120px] md:text-[16px]'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
                 posuere adipiscing convallis sit. Non, nunc adipiscing mi amet
                 tempor feugia

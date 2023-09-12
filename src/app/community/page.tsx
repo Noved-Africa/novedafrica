@@ -40,18 +40,18 @@ const Community = () => {
           </p>
           <p className="w-60 lg:ml-[3.8rem] mt-10"><Button text='Join our community'/></p>
         </div>
-        <Image src={people} alt='community' className='w-[22rem] -mt-[19rem] z-10 absolute ml-[34rem]'/>
+        <Image src={people} alt='community' className='w-[22rem] -mt-[19rem] z-10 absolute ml-[54rem]'/>
         <Image src={heart} alt='heart emoji' className='md:-mt-[26rem] w-3 md:ml-[26rem] absolute
         '/>
-        <Image src={heart} alt='heart emoji' className='md:-mt-[22rem] w-6 md:ml-[40rem] absolute
+        <Image src={heart} alt='heart emoji' className='md:-mt-[22rem] w-6 md:ml-[58rem] absolute
         '/>
-        <Image src={smileyFace} alt='smiley face' className='md:-mt-[8rem] w-4 md:ml-[32rem] absolute
+        <Image src={smileyFace} alt='smiley face' className='lg:-mt-[9rem] w-4 lg:ml-[48rem] absolute
         '/>
-        <Image src={smileyFace} alt='smiley face' className='md:-mt-[5rem] w-4 md:ml-[4rem] absolute
+        <Image src={smileyFace} alt='smiley face' className='lg:-mt-[9rem] w-4 lg:ml-[16rem] absolute
         '/>
 
         {/* Arc 1 */}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="-mt-[13rem] lg:w-[98rem] lg:mb-[10rem] h-[14.5rem] w-screen relative z-40"><path fill="#D9D9D9" fill-opacity="1" d="M0,288L120,256C240,224,480,160,720,160C960,160,1200,224,1320,256L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="lg:-mt-[20rem] lg:mb-[10rem] h-[24.5rem] w-screen relative z-40"><path fill="#D9D9D9" fill-opacity="1" d="M0,288L120,256C240,224,480,160,720,160C960,160,1200,224,1320,256L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
 
         <section className="md:py-16 md:px-10">
           <div className="lg:grid lg:grid-cols-3 gap-5">
@@ -75,7 +75,7 @@ const Community = () => {
         <section className='mt-10 md:px-10'>
           <div className="md:grid md:grid-cols-2 lg:grid-cols-1 gap-5">
             {/* Box 1 */}
-            <div className=" pt-12 pb-6 bg-white px-5 rounded-xl w-[28rem]">
+            <div className=" pt-12 pb-6 bg-white px-5 rounded-xl lg:w-[22rem]">
               {/* Image and Dot on the same Row */}
               <div className="grid grid-cols-2">
                 {/* Image with background */}
@@ -91,7 +91,7 @@ const Community = () => {
               </div>
             </div>
             {/* Box 2 */}
-            <div className="pt-6 bg-white px-5 rounded-xl w-[28rem] md:-mt-[19rem] md:ml-[65rem]">
+            <div className="pt-6 bg-white px-5 rounded-xl lg:w-[22rem] lg:-mt-[20rem] lg:ml-[51rem]">
                 {/* Image with background */}
                 <div className=""><Image src={diamond} alt= '' className='bg-[#E27083] rounded-[0.75rem] p-3 w-12'/></div>
                 {/* Text */}
@@ -110,7 +110,7 @@ const Community = () => {
               </div>
           </div>
           {/* Box 3 */}
-          <div className="pt-12 pb-6 bg-white px-5 rounded-xl w-[28rem] md:-mt-[10rem] mt-6 mx-auto ">
+          <div className="pt-12 pb-6 bg-white px-5 rounded-xl lg:w-[22rem] md:-mt-[10rem] mt-6 mx-auto ">
             {/* Image and Dot on the same Row */}
             <div className="grid grid-cols-2">
               {/* Image with background */}

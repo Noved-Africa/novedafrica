@@ -48,17 +48,17 @@ const OurStory = () => {
 				</div>
 				<div className='md:grid !md:grid-cols-2 lg:flex'>
 					<div className='mx-8 lg:-mr-10 md:grid md:grid-cols-2 flex-1 gap-0'>
-						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none lg:h-[17rem] xs:w-screen xs:mx-auto xs:h-[15rem]'/>
+						<Image src={dart} alt='dart' className='rounded-t-xl md:rounded-r-none lg:h-[17rem] md:h-[18rem] xs:w-screen xs:mx-auto xs:h-[15rem]'/>
 						<div className='bg-[#E1E3EA] xs:pt-5 px-7 lg:h-[17rem] md:pb-24'>
-							<p className='font-semibold text-xl pb-3'>Our Vision</p>
-							<span className='text-sm '>We deliver full spectrum resources to upskill students for employability purposes.</span>
+							<p className='font-semibold text-xl md:text-lg pb-3'>Our Vision</p>
+							<span className='text-sm md:text-[.6rem]'>We deliver full spectrum resources to upskill students for employability purposes.</span>
 						</div>
 					</div>
 					<div className='mx-8 md:grid grid-cols-2 flex-1'>
 						<Image src={plane} alt='plane' className='xs:w-screen md:order-last lg:order-none lg:h-[17rem] xs:mx-auto xs:h-[15rem]'/>
 						<div className='bg-[#E1E3EA] lg:h-[17rem] md:h-[15rem] xs:pt-5 px-7  pb-10 rounded-b-lg'>
-							<p className='font-semibold text-xl pb-3'>Our Mission</p>
-							<span className='text-sm  '>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
+							<p className='font-semibold text-xl md:text-lg pb-3 md:pb-0'>Our Mission</p>
+							<span className='text-sm md:text-[.6rem]'>Our mission at Noved Africa is to empower African undergraduates and fresh graduates to become job-ready talents, entrepreneurs, and leaders by providing the right education, resources, opportunities, support, and platforms.</span>
 						</div>
 				</div>
 				</div>
