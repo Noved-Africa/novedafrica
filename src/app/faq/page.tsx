@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { useForm, SubmitHandler } from "react-hook-form";
 import FaqAccordion from "./FaqAccordion";
+import { SearchComponent } from "@/common/components";
 
 import { faq, search } from "@/assets";
 
@@ -79,32 +80,18 @@ const Faq = () => {
 					<Image
 						src={faq}
 						alt='FAQ Question'
-						className=' md:h-full h-[182px] grow-0 '
+						height={1000}
+						width={1000}
+						className=' md:h-full h-[182px] w-48 grow-0 '
 					/>
 				</div>
 			</div>
+<div>
 
-			<div className='  bg-[#FFFADE] flex lg:flex-row flex-col lg:items-center justify-between lg:px-[100px] md:px-8 md:py-8 py-6   md:gap-6 gap-4  px-4 lg:mb-16 mb-6 w-full '>
-				<p className=' font-medium lg:text-[22px] text-lg md:text-[20px] text-[#292929] '>
-					Simplify our FAQ section with the search feature.
-				</p>
+			<SearchComponent text={"Simplify our FAQ section with the search feature."} />
+</div>
 
-				<form className=' flex  gap-3 grow '>
-					<div className=' flex gap-2 bg-white px-4  w-full rounded-full '>
-						<Image src={search} alt='Search' />
-						<input
-							type='text'
-							placeholder='What are you searching for?'
-							className=' py-3 text-black w-full focus:outline-0 '
-						/>
-					</div>
-					<button className=' bg-[#4A43CB] px-6 md:px-10 py-3 grow-0 shrink rounded-full  '>
-						Search
-					</button>
-				</form>
-			</div>
-
-			<div className=' '>
+			<div className=' lg:mt-16 mt-6 '>
 				{/* <div className=' w-1/3 bg-[#fffade] p-8 '>
 					<h1 className=' mb-6 font-bold text-[22px] leading-9 text-black '>
 						Categories

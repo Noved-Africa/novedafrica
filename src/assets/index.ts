@@ -9,6 +9,9 @@ import bgMobile from '@/assets/bg-mobile.svg'
 import bgTablet from "@/assets/bg-tablet.svg"
 import bgDesktop from "@/assets/bg-desktop.svg"
 import blogImage from "@/assets/blogImage.svg"
+import menu from "@/assets/menu.svg"
+import arrowLeft from "@/assets/arrow-left.svg"
+import blogPicture from '@/assets/blogPicture.svg'
 
 
-export { arrow, faq, location, mail, phone, search, contactBg, blogImage, bgMobile, bgTablet, bgDesktop }
+export { arrow, arrowLeft, faq, location, mail, phone, search, contactBg, blogImage, blogPicture, bgMobile, bgTablet, bgDesktop, menu }

@@ -15,26 +15,11 @@ type Props = {
 };
 
 const FaqAccordion: React.FC<Props> = ({ faqs }) => {
-	const scrollableRef = useRef<HTMLDivElement | null>(null);
 	const [isDragging, setIsDragging] = useState(false);
 	const [startX, setStartX] = useState(0);
 	const [scrollLeft, setScrollLeft] = useState(0);
 
-	const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-		setIsDragging(true);
-		setStartX(e.clientX - (scrollableRef.current?.offsetLeft ?? 0));
-		setScrollLeft(scrollableRef.current?.scrollLeft ?? 0);
-	};
 
-	const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
-		if (!isDragging) return;
-		e.preventDefault();
-		const x = e.clientX - (scrollableRef.current?.offsetLeft ?? 0);
-		const scrollX = x - startX;
-		if (scrollableRef.current) {
-			scrollableRef.current.scrollLeft = scrollLeft - scrollX;
-		}
-	};
 
 	const handlePointerUp = () => {
 		setIsDragging(false);
@@ -50,16 +35,12 @@ const FaqAccordion: React.FC<Props> = ({ faqs }) => {
 	return (
 		<div className='lg:px-[100px] px-4 md:px-8 flex lg:flex-row flex-col text-black lg:gap-12 md:gap-10'>
 			{/* Category list */}
-			<div className='lg:w-1/3 bg-[#fffade] md:p-8 py-6 rounded-xl over '>
+			<div className='lg:w-1/3 bg-[#fffade] md:p-8 py-6 rounded-xl overflow-hidden '>
 				<h1 className='lg:block hidden mb-6 font-bold text-[22px] leading-9 text-black'>
 					Categories
 				</h1>
 				<div
-					ref={scrollableRef}
-					onPointerDown={handlePointerDown}
-					onPointerMove={handlePointerMove}
-					onPointerUp={handlePointerUp}
-					className='flex lg:flex-col flex-nowrap md:justify-between gap-1'>
+					className='flex lg:flex-col flex-nowrap md:justify-between gap-1 overflow-auto scrollbar-hide'>
 					{[
 						"General",
 						"Employability",
