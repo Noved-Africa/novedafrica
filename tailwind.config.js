@@ -6,6 +6,12 @@ module.exports = {
 		"./src/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		screens: {
+			'xs': '100px',
+			'sm': '140px',
+			'md': '361px',
+			'lg': '800px'
+		},
 		extend: {
 			colors: {
 				primary: "#0A4447",
@@ -18,6 +24,9 @@ module.exports = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 		},
+		fontFamily: {
+			'Albert_sans': ['Albert Sans', 'system-ui'],
+		}
 	},
-	plugins: [],
+	plugins: []
 };
