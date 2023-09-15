@@ -61,69 +61,80 @@
 
 import React from "react";
 import Image from 'next/image'
-import man from '../../../../../public/images/man.png'
+import photo1 from '../../../../../public/images/photo1.jpg'
+import photo2 from '../../../../../public/images/photo2.jpg'
+import photo3 from '../../../../../public/images/photo3.jpg'
+import photo4 from '../../../../../public/images/photo4.jpg'
+import photo5 from '../../../../../public/images/photo5.jpg'
+import photo6 from '../../../../../public/images/photo6.jpg'
+import photo7 from '../../../../../public/images/photo7.jpg'
+import photo8 from '../../../../../public/images/photo8.jpg'
+import photo9 from '../../../../../public/images/photo9.jpg'
+import photo10 from '../../../../../public/images/photo10.jpg'
+import photo11 from '../../../../../public/images/photo11.jpg'
+import photo12 from '../../../../../public/images/photo12.jpg'
 
 const PhotoGallery = () => {
   return (
     <>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:mt-[8rem] mx-14 lg:relative lg:mt-[4rem] mb-10">
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo1} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold mt-2">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5 ">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo2} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo3} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo4} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo5} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo6} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo7} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo8} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo9} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo10} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo11} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
         <div>
-          <Image src={man} alt='' className="rounded-3xl"/>
+          <Image src={photo12} alt='' className="rounded-3xl"/>
           <p className="pl-5 text-black font-semibold">The Undergraduate Student Summit ‘22</p>
           <span className="text-slate-400 pl-5">February, 2022</span>
         </div>
