@@ -38,10 +38,7 @@ const Contact = () => {
 						Get in touch with us
 					</h1>
 					<p className=' text-[#424242] lg:text-lg text-[16px] tracking-tight '>
-						Need help? We are dedicated to providing exceptional customer
-						service and are eager to assist you with any inquiries. Check our
-						answers to the questions you have when you read our frequently asked
-						questions.
+						Need help? Here is how you can contact us.
 					</p>
 					<button className=' bg-[#4A43CB] text-white px-6 py-[13px] mt-10 mb-20 rounded-full font-bold '>
 						Frequently Asked Questions
@@ -59,7 +56,7 @@ const Contact = () => {
 								Location
 							</h2>
 							<p className=' text-[16px] font-normal leading-6  '>
-								Obafemi Awolowo University, Ile-Ife, Osun state, Nigeria.
+								Obafemi Awolowo University, Ile-Ife.
 							</p>
 						</div>
 					</div>
@@ -75,7 +72,7 @@ const Contact = () => {
 								Customer Care Number
 							</h2>
 							<p className=' text-[16px] font-normal leading-6  '>
-								+234 903 415 6118
+								+2349033633966
 							</p>
 						</div>
 					</div>

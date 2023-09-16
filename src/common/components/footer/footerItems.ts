@@ -2,11 +2,11 @@
 
 export const SocialIcons = [{
   icon: '/images/twitter.svg',
-  link: 'https://twitter.com/yourpage',
+  link: 'https://twitter.com/noved_africa',
 },
 {
   icon: '/images/instagram.svg',
-  link: 'https://www.instagram.com/yourpage',
+  link: 'https://www.instagram.com/_novedafrica',
 },
 {
   icon: '/images/facebook.svg',
@@ -15,12 +15,12 @@ export const SocialIcons = [{
 
 {
   icon: '/images/linkedin.svg',
-  link: 'https://www.linkedin.com/company/yourpage',
+  link: 'https://www.linkedin.com/company/noved-africa/',
 },
-{
-  icon: '/images/youtube.svg',
-  link: 'https://www.youtube.com/channel/yourpage',
-}
+// {
+//   icon: '/images/youtube.svg',
+//   link: 'https://www.youtube.com/channel/yourpage',
+// }
 ];
 
 

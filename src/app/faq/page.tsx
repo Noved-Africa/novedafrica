@@ -20,39 +20,71 @@ const faqs = [
 		category: "General",
 		question: "How do I benefit from Noved Africa?",
 		answer:
-			"You can contact support by sending an email to support@example.com.",
+			"You will get access to strategic engagements focused on building you to become socially fit graduates.  The strategic engagements include but are not limited to skill development, mentorship, accountability, personal development, and branding.",
 	},
+
 	{
 		id: 3,
 		category: "General",
 		question: "Do you offer courses?",
 		answer:
-			"You can contact support by sending an email to support@example.com.",
+			"Noved Africa does not offer courses. However, our initiative U-grad does. U-grad is targeted at helping undergraduates realize their ability to start a career even before graduation.",
 	},
+
 	{
 		id: 4,
 		category: "General",
-		question: "What makes Noved Africa unique?",
+		question: "What makes NOVED Africa unique?",
 		answer:
-			"You can contact support by sending an email to support@example.com.",
+			"Our major distinctiveness is that our mission focuses on helping undergraduates realize their potential while on campus. We want to ensure that undergraduates can set their careers on track even before graduation.That might be through skill development, portfolio building, volunteering, internships, or even entry- level jobs.",
 	},
+
 	{
 		id: 5,
-		category: "Community",
-		question: "Which payment methods do you accept?",
-		answer: "We accept Visa, MasterCard, and PayPal.",
+		category: "Employability",
+		question: "Will NOVED Africa offer me a job?",
+		answer: "Noved Africa does not offer jobs.We can only guarantee that participation in our programs will help you increase your stakes of being fit and ready for global jobs.",
 	},
 	{
 		id: 6,
 		category: "Employability",
-		question: "Which payment methods do you accept?",
-		answer: "We accept Visa, MasterCard, and PayPal.",
+		question: "Can I apply to NOVED Africa?",
+		answer: "Yes! You are welcome to apply to Noved Africa as an employee. We would be glad to have you on our team. ",
 	},
+
 	{
 		id: 7,
 		category: "Events and Collaborations",
-		question: "Which payment methods do you accept?",
-		answer: "We accept Visa, MasterCard, and PayPal.",
+		question: "How do I attend events?",
+		answer: "Events dates and all other information are communicated across all Noved Africa social media platforms well before the events. ",
+	},
+
+	{
+		id: 8,
+		category: "Events and Collaborations",
+		question: "Can I collaborate with NOVED Africa?",
+		answer: "If your goals align with ours, then yes! For more inquiries on collaborations, feel free to reach out to us. Check the Contact Page.",
+	},
+
+	{
+		id: 9,
+		category: "Community",
+		question: "Is there a special requirement needed to be a member?",
+		answer: "There are no special requirements to be a part of Noved Africa. All you need to be is an undergraduate or a fresh graduate. We welcome all!",
+	},
+
+	{
+		id: 10,
+		category: "Community",
+		question: "Do I have to pay to join?",
+		answer: "Not at all! Being a member of the Noved Africa community comes at no cost at all. ",
+	},
+
+	{
+		id: 11,
+		category: "Community",
+		question: "How do I join?",
+		answer: "The only procedure required to join our community is to fill out the enrollment form. To do this, you can click on the ‘Join the community’ button. We cannot wait to have you!",
 	},
 	// Add more FAQs as needed
 ];
@@ -86,10 +118,10 @@ const Faq = () => {
 					/>
 				</div>
 			</div>
-<div>
+			<div>
 
-			<SearchComponent text={"Simplify our FAQ section with the search feature."} />
-</div>
+				<SearchComponent text={"Simplify our FAQ section with the search feature."} />
+			</div>
 
 			<div className=' lg:mt-16 mt-6 '>
 				{/* <div className=' w-1/3 bg-[#fffade] p-8 '>

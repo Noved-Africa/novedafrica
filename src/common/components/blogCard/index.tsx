@@ -7,7 +7,7 @@ import { arrowLeft } from '@/assets';
 
 const BlogCard = () => {
   return (
-    <div className=' text-black bg-[#DBD9F5] rounded-lg '>
+    <div className=' text-black bg-[#F3F4F6         ] rounded-lg '>
       <div>
         <BlogImage image={blogPicture} category='Social' />
       </div>
