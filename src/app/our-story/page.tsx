@@ -8,7 +8,8 @@ const OurStory = () => {
 	return (
 		<>
 			<div className=" relative bg-mobile-bg md:bg-tablet-bg ">
-				<Image src={ourStoryBg} alt="bg" className=" absolute -z-30 w-full h-full sm:object-contain " layout="responsive" srcSet={`${ourStoryBgMobile} 640w, ${ourStoryBgTablet} 768w, ${ourStoryBg} 1024w`} />
+				<Image src={ourStoryBg} alt="bg" className=" absolute -z-30 w-full h-full sm:object-contain " layout="responsive" />
+				{/* srcSet={`${ourStoryBgMobile} 640w, ${ourStoryBgTablet} 768w, ${ourStoryBg} 1024w`}  */}
 
 				<div className=" lg:pt-32 lg:px-[100px] pt-32  ">
 					<p className=" lg:px-0 px-8 w-fit lg:text-[18px] sm:text-xs text-white/80 ">Our Story</p>
