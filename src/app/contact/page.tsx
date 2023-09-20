@@ -29,7 +29,7 @@ const Contact = () => {
 	};
 	return (
 		<div className='  '>
-			<div className='bg-white pt-32 bg-[bg-Mobile] '>
+			<div className='bg-white pt-32  '>
 				<p className=' text-black lg:pl-[100px] md:pl-8 pl-4 '>
 					Contact / Contact Us
 				</p>

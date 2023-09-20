@@ -27,11 +27,12 @@ const Header = () => {
 			<a href={"/"}>
 				<LogoImage />
 			</a>
+
 			<div className=' hidden md:block '>
 				<ul className=' flex space-x-6  '>
 					{menuItems.map((item) => (
 						<li
-							className=' p-3 relative '
+							className=' p-3 relative flex-nowrap '
 							key={item.id}
 							onMouseEnter={() => handleMenuHover(item.id)}
 							onMouseLeave={handleMenuLeave}>
@@ -54,7 +55,7 @@ const Header = () => {
 				</ul>
 			</div>
 
-			<div className='md:hidden flex'>
+			<div className='md:hidden block'>
 				<button
 					className='text-black '
 					onClick={toggleMobileMenu}
@@ -64,8 +65,7 @@ const Header = () => {
 			</div>
 
 
-			{
-				showMobile && (<ul
+			{showMobile && (<ul
 					className='  absolute top-20 right-0 flex-col space-y-4 w-full text-center text-black bg-white p-4 rounded-md'>
 					{/* {menuItems.map((item) => (
 						<li className='relative' key={item.id}>
